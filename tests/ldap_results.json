@@ -1,0 +1,2665 @@
+{
+    "Monitor.Connection": {
+        "hostname": "my_fake_server",
+        "bound": true
+    },
+    "Monitor.Agent.BackGroundProcInterval.ARC_resolve_timer_thread": {
+        "BackgroundProcScheduled": "20251120134500Z"
+    },
+    "Monitor.Agent.BackGroundProcInterval.CPU_Usage_monitor": {
+        "BackgroundProcStartTime": "20251016060500Z"
+    },
+    "Monitor.Agent.BackGroundProcInterval.Change_Cache_skulk_trigger": {
+        "BackgroundProcStartTime": "20251016060501Z"
+    },
+    "Monitor.Agent.BackGroundProcInterval.CheckBacklinks": {
+        "BackgroundProcScheduled": "20251120191124Z"
+    },
+    "Monitor.Agent.BackGroundProcInterval.EBA_Task_Manager": {
+        "BackgroundProcScheduled": "20251120134500Z"
+    },
+    "Monitor.Agent.BackGroundProcInterval.ExtRefRefreshProc": {
+        "BackgroundProcScheduled": "20251120134600Z"
+    },
+    "Monitor.Agent.BackGroundProcInterval.Janitor": {
+        "BackgroundProcScheduled": "20251120134501Z"
+    },
+    "Monitor.Agent.BackGroundProcInterval.Limber": {
+        "BackgroundProcScheduled": "20251120140506Z"
+    },
+    "Monitor.Agent.BackGroundProcInterval.ObitProc": {
+        "BackgroundProcScheduled": [
+            "20251120134406Z",
+            "20251120133502Z",
+            "20251120133502Z",
+            "20251120120505Z",
+            "20251120063505Z",
+            "20251115083505Z",
+            "20251031200502Z"
+        ]
+    },
+    "Monitor.Agent.BackGroundProcInterval.PS_Update": {
+        "BackgroundProcScheduled": "20251120134513Z"
+    },
+    "Monitor.Agent.BackGroundProcInterval.PartitionPurgeProcess": {
+        "BackgroundProcScheduled": "20251120134755Z"
+    },
+    "Monitor.Agent.BackGroundProcInterval.RNRAdvertise": {
+        "BackgroundProcScheduled": "20251120143522Z"
+    },
+    "Monitor.Agent.BackGroundProcInterval.RefreshBinderyContext": {
+        "BackgroundProcScheduled": "20251120134459Z"
+    },
+    "Monitor.Agent.BackGroundProcInterval.Repair_Inactive_Replicas": {
+        "BackgroundProcScheduled": "20251127060520Z"
+    },
+    "Monitor.Agent.BackGroundProcInterval.SchemaProc": {
+        "BackgroundProcScheduled": "20251120155727Z"
+    },
+    "Monitor.Agent.BackGroundProcInterval.SkulkerProc": {
+        "BackgroundProcStartTime": "20251016060500Z"
+    },
+    "Monitor.Agent.BackGroundProcInterval.SkulkerWorkerProc": {
+        "BackgroundProcScheduled": [
+            "20251120134406Z",
+            "20251120133507Z",
+            "20251120133502Z",
+            "20251120133502Z"
+        ]
+    },
+    "Monitor.Agent.Partition": {
+        "OBIT_COUNT_FROM_DATABASE_INDEX": [
+            ".T=IAM-BP-Q.#0",
+            ".O=System.T=IAM-BP-Q.#0",
+            ".O=archive.T=IAM-BP-Q.#0",
+            ".O=base.T=IAM-BP-Q.#0",
+            ".CN=driverset0.O=System.T=IAM-BP-Q.#0",
+            ".OU=sa.OU=data.O=base.T=IAM-BP-Q.#0"
+        ],
+        "OBIT_DEAD_NOTIFIED": [
+            ".T=IAM-BP-Q.#0",
+            ".O=System.T=IAM-BP-Q.#0",
+            ".O=archive.T=IAM-BP-Q.#0",
+            ".O=base.T=IAM-BP-Q.#0",
+            ".CN=driverset0.O=System.T=IAM-BP-Q.#0",
+            ".OU=sa.OU=data.O=base.T=IAM-BP-Q.#0"
+        ],
+        "OBIT_MOVED_ISSUED": [
+            ".T=IAM-BP-Q.#0",
+            ".O=System.T=IAM-BP-Q.#0",
+            ".O=archive.T=IAM-BP-Q.#0",
+            ".O=base.T=IAM-BP-Q.#0",
+            ".CN=driverset0.O=System.T=IAM-BP-Q.#0",
+            ".OU=sa.OU=data.O=base.T=IAM-BP-Q.#0"
+        ],
+        "OBIT_DEAD_ISSUED": [
+            ".T=IAM-BP-Q.#0",
+            ".O=System.T=IAM-BP-Q.#0",
+            ".O=archive.T=IAM-BP-Q.#0",
+            ".O=base.T=IAM-BP-Q.#0",
+            ".CN=driverset0.O=System.T=IAM-BP-Q.#0",
+            ".OU=sa.OU=data.O=base.T=IAM-BP-Q.#0"
+        ],
+        "PerishableData": [
+            ".T=IAM-BP-Q.#0",
+            ".O=System.T=IAM-BP-Q.#0",
+            ".O=archive.T=IAM-BP-Q.#0",
+            ".O=base.T=IAM-BP-Q.#155",
+            ".CN=driverset0.O=System.T=IAM-BP-Q.#0",
+            ".OU=sa.OU=data.O=base.T=IAM-BP-Q.#0"
+        ],
+        "OBIT_MOVED_PURGEABLE": [
+            ".T=IAM-BP-Q.#0",
+            ".O=System.T=IAM-BP-Q.#0",
+            ".O=archive.T=IAM-BP-Q.#0",
+            ".O=base.T=IAM-BP-Q.#0",
+            ".CN=driverset0.O=System.T=IAM-BP-Q.#0",
+            ".OU=sa.OU=data.O=base.T=IAM-BP-Q.#0"
+        ],
+        "OBIT_MOVED_NOTIFIED": [
+            ".T=IAM-BP-Q.#0",
+            ".O=System.T=IAM-BP-Q.#0",
+            ".O=archive.T=IAM-BP-Q.#0",
+            ".O=base.T=IAM-BP-Q.#0",
+            ".CN=driverset0.O=System.T=IAM-BP-Q.#0",
+            ".OU=sa.OU=data.O=base.T=IAM-BP-Q.#0"
+        ],
+        "OBIT_NEWRDN_OK_TO_PURGE": [
+            ".T=IAM-BP-Q.#0",
+            ".O=System.T=IAM-BP-Q.#0",
+            ".O=archive.T=IAM-BP-Q.#0",
+            ".O=base.T=IAM-BP-Q.#0",
+            ".CN=driverset0.O=System.T=IAM-BP-Q.#0",
+            ".OU=sa.OU=data.O=base.T=IAM-BP-Q.#0"
+        ],
+        "OBIT_NEWRDN_ISSUED": [
+            ".T=IAM-BP-Q.#0",
+            ".O=System.T=IAM-BP-Q.#0",
+            ".O=archive.T=IAM-BP-Q.#0",
+            ".O=base.T=IAM-BP-Q.#0",
+            ".CN=driverset0.O=System.T=IAM-BP-Q.#0",
+            ".OU=sa.OU=data.O=base.T=IAM-BP-Q.#0"
+        ],
+        "OBIT_DEAD_OK_TO_PURGE": [
+            ".T=IAM-BP-Q.#0",
+            ".O=System.T=IAM-BP-Q.#0",
+            ".O=archive.T=IAM-BP-Q.#0",
+            ".O=base.T=IAM-BP-Q.#0",
+            ".CN=driverset0.O=System.T=IAM-BP-Q.#0",
+            ".OU=sa.OU=data.O=base.T=IAM-BP-Q.#0"
+        ],
+        "ChangeCacheCount": [
+            ".T=IAM-BP-Q.#1",
+            ".O=System.T=IAM-BP-Q.#1",
+            ".O=archive.T=IAM-BP-Q.#1",
+            ".O=base.T=IAM-BP-Q.#3",
+            ".CN=driverset0.O=System.T=IAM-BP-Q.#2",
+            ".OU=sa.OU=data.O=base.T=IAM-BP-Q.#3"
+        ],
+        "OBIT_DEAD_PURGEABLE": [
+            ".T=IAM-BP-Q.#0",
+            ".O=System.T=IAM-BP-Q.#0",
+            ".O=archive.T=IAM-BP-Q.#0",
+            ".O=base.T=IAM-BP-Q.#0",
+            ".CN=driverset0.O=System.T=IAM-BP-Q.#0",
+            ".OU=sa.OU=data.O=base.T=IAM-BP-Q.#0"
+        ],
+        "OBIT_MOVED_OK_TO_PURGE": [
+            ".T=IAM-BP-Q.#0",
+            ".O=System.T=IAM-BP-Q.#0",
+            ".O=archive.T=IAM-BP-Q.#0",
+            ".O=base.T=IAM-BP-Q.#0",
+            ".CN=driverset0.O=System.T=IAM-BP-Q.#0",
+            ".OU=sa.OU=data.O=base.T=IAM-BP-Q.#0"
+        ],
+        "OBIT_NEWRDN_PURGEABLE": [
+            ".T=IAM-BP-Q.#0",
+            ".O=System.T=IAM-BP-Q.#0",
+            ".O=archive.T=IAM-BP-Q.#0",
+            ".O=base.T=IAM-BP-Q.#0",
+            ".CN=driverset0.O=System.T=IAM-BP-Q.#0",
+            ".OU=sa.OU=data.O=base.T=IAM-BP-Q.#0"
+        ],
+        "OBIT_NEWRDN_NOTIFIED": [
+            ".T=IAM-BP-Q.#0",
+            ".O=System.T=IAM-BP-Q.#0",
+            ".O=archive.T=IAM-BP-Q.#0",
+            ".O=base.T=IAM-BP-Q.#0",
+            ".CN=driverset0.O=System.T=IAM-BP-Q.#0",
+            ".OU=sa.OU=data.O=base.T=IAM-BP-Q.#0"
+        ],
+        "MaxRingDelta": [
+            ".T=IAM-BP-Q.#0",
+            ".O=System.T=IAM-BP-Q.#262",
+            ".O=archive.T=IAM-BP-Q.#262",
+            ".O=base.T=IAM-BP-Q.#155",
+            ".CN=driverset0.O=System.T=IAM-BP-Q.#0",
+            ".OU=sa.OU=data.O=base.T=IAM-BP-Q.#0"
+        ]
+    },
+    "Monitor.Agent.Status": {
+        "eDirectoryAgentVersion": "4030100",
+        "eDirectoryUpTime": "3051551",
+        "eDirectorySystemCurrTime": "20251120134410Z"
+    },
+    "Monitor.DHOST.InBoundConnection": {
+        "MaxInBoundConnection": "512",
+        "InBoundConnectionCount": "82"
+    },
+    "Monitor.DHOST.ThreadPool": {
+        "ThreadPeakWorkers": "51",
+        "ThreadPoolReadyQueueMaxWaitTime": "23140",
+        "ThreadPoolReadyQueueItems": "0",
+        "ThreadsIdle": "23",
+        "ThreadsWorkers": "48",
+        "ThreadsSpawned": "56",
+        "ThreadWaitingQueuePeakItems": "24",
+        "ThreadMinWaitTime": "3",
+        "ThreadWaitingQueueItems": "20",
+        "ThreadsDied": "8",
+        "ThreadMaxWaitTime": "1009773"
+    },
+    "Monitor.Dclient.OutBoundConnection": {
+        "TotalOpenOutBoundConnection": "80",
+        "MaxOutBoundConnection": "4294967295",
+        "RefusedOutBoundConnection": "0"
+    },
+    "Monitor.Dclient.OutBoundContext": {
+        "ActiveOutBoundContextCount": "413",
+        "TotalOutBoundContextCount": "1152"
+    },
+    "Monitor.IDM.EngineVersion": {
+        "EngineVersion": "4.10.0.0200 AE"
+    },
+    "Monitor.IDM.driverSet_Stats": {
+        "driverSetDN": "CN=driverset0,O=System",
+        "numberOfDrivers": "70",
+        "running": "32",
+        "startUpOption_manual_count": "0",
+        "starting": "0",
+        "startUpOption_disabled_count": "38",
+        "startUpOption_auto-start_count": "32",
+        "stopped": "38",
+        "shutDownPending": "0"
+    },
+    "Monitor.IDM.driverSet_Stats.drivers.ACDI": {
+        "driver-state": "running",
+        "type": "local",
+        "startOption": "autostart",
+        "DriverDN": "CN=ACDI,CN=driverset0,O=System",
+        "uptime": "35 days 7 hours 38 minutes 45 seconds 56 milliseconds"
+    },
+    "Monitor.IDM.driverSet_Stats.drivers.ACDI.ProcessedOperationsCount.subscriber": {
+        "modify": "1155481",
+        "add": "227347"
+    },
+    "Monitor.IDM.driverSet_Stats.drivers.AD_Location_Driver": {
+        "driver-state": "running",
+        "type": "local",
+        "startOption": "autostart",
+        "DriverDN": "CN=AD Location Driver,CN=driverset0,O=System",
+        "uptime": "35 days 7 hours 38 minutes 45 seconds 51 milliseconds"
+    },
+    "Monitor.IDM.driverSet_Stats.drivers.AD_Location_Driver.ProcessedOperationsCount.publisher": {
+        "query": "8",
+        "add": "4"
+    },
+    "Monitor.IDM.driverSet_Stats.drivers.AD_Maintenance": {
+        "downTime": "258 days 23 hours 43 minutes 37 seconds 56 milliseconds",
+        "driver-state": "stopped",
+        "type": "local",
+        "startOption": "disabled",
+        "DriverDN": "CN=AD Maintenance,CN=driverset0,O=System"
+    },
+    "Monitor.IDM.driverSet_Stats.drivers.AD2SAPSSO": {
+        "driver-state": "running",
+        "type": "local",
+        "startOption": "autostart",
+        "DriverDN": "CN=AD2SAPSSO,CN=driverset0,O=System",
+        "uptime": "35 days 7 hours 38 minutes 45 seconds 54 milliseconds"
+    },
+    "Monitor.IDM.driverSet_Stats.drivers.AD2SAPSSO.ProcessedOperationsCount.publisher": {
+        "query": "828",
+        "modify": "459"
+    },
+    "Monitor.IDM.driverSet_Stats.drivers.AD2SAPSSO.ProcessedOperationsCount.subscriber": {
+        "query": "15",
+        "modify": "555"
+    },
+    "Monitor.IDM.driverSet_Stats.drivers.Account_Affiliation_Handler": {
+        "driver-state": "running",
+        "type": "local",
+        "startOption": "autostart",
+        "DriverDN": "CN=Account Affiliation Handler,CN=driverset0,O=System",
+        "uptime": "5 hours 24 minutes 1 seconds 55 milliseconds"
+    },
+    "Monitor.IDM.driverSet_Stats.drivers.Account_Affiliation_Handler.ProcessedOperationsCount.publisher": {
+        "modify": "118",
+        "add": "70"
+    },
+    "Monitor.IDM.driverSet_Stats.drivers.Account_Password_Driver": {
+        "driver-state": "running",
+        "type": "local",
+        "startOption": "autostart",
+        "DriverDN": "CN=Account Password Driver,CN=driverset0,O=System",
+        "uptime": "35 days 7 hours 38 minutes 56 seconds 59 milliseconds"
+    },
+    "Monitor.IDM.driverSet_Stats.drivers.Account_Password_Driver.ProcessedOperationsCount.publisher": {
+        "status": 383858,
+        "modify": "867"
+    },
+    "Monitor.IDM.driverSet_Stats.drivers.Account_Sync_Driver": {
+        "driver-state": "running",
+        "type": "local",
+        "startOption": "autostart",
+        "DriverDN": "CN=Account Sync Driver,CN=driverset0,O=System",
+        "uptime": "35 days 7 hours 38 minutes 56 seconds 60 milliseconds"
+    },
+    "Monitor.IDM.driverSet_Stats.drivers.Account_Sync_Driver.ProcessedOperationsCount.publisher": {
+        "query": "47802",
+        "modify": "8220"
+    },
+    "Monitor.IDM.driverSet_Stats.drivers.Account_Sync_Driver.ProcessedOperationsCount.subscriber": {
+        "modify": "18323"
+    },
+    "Monitor.IDM.driverSet_Stats.drivers.Admin-BL-Jobs": {
+        "driver-state": "running",
+        "type": "local",
+        "startOption": "autostart",
+        "DriverDN": "CN=Admin-BL-Jobs,CN=driverset0,O=System",
+        "uptime": "35 days 7 hours 38 minutes 45 seconds 56 milliseconds"
+    },
+    "Monitor.IDM.driverSet_Stats.drivers.AdminRoleManagement": {
+        "driver-state": "running",
+        "type": "local",
+        "startOption": "autostart",
+        "DriverDN": "CN=AdminRoleManagement,CN=driverset0,O=System",
+        "uptime": "35 days 7 hours 38 minutes 44 seconds 58 milliseconds"
+    },
+    "Monitor.IDM.driverSet_Stats.drivers.BMC_Remedy_Rest_Driver": {
+        "downTime": "246 days 21 hours 59 minutes 25 seconds 52 milliseconds",
+        "driver-state": "stopped",
+        "type": "local",
+        "startOption": "disabled",
+        "DriverDN": "CN=BMC Remedy Rest Driver,CN=driverset0,O=System"
+    },
+    "Monitor.IDM.driverSet_Stats.drivers.BMC_Remedy_Rest_Driver.ProcessedOperationsCount.publisher": {
+        "status": 1379374,
+        "modify": "734849"
+    },
+    "Monitor.IDM.driverSet_Stats.drivers.BMC_Remedy_Rest_Driver.ProcessedOperationsCount.subscriber": {
+        "query": "1565146",
+        "add": "956014"
+    },
+    "Monitor.IDM.driverSet_Stats.drivers.BulkImport": {
+        "downTime": "258 days 21 hours 47 minutes 1 seconds 57 milliseconds",
+        "driver-state": "stopped",
+        "type": "local",
+        "startOption": "disabled",
+        "DriverDN": "CN=BulkImport,CN=driverset0,O=System"
+    },
+    "Monitor.IDM.driverSet_Stats.drivers.BulkImport.ProcessedOperationsCount.publisher": {
+        "query": "136",
+        "modify": "46",
+        "add": "44"
+    },
+    "Monitor.IDM.driverSet_Stats.drivers.CS_SM_DTF": {
+        "downTime": "50 days 18 minutes 12 seconds 56 milliseconds",
+        "driver-state": "stopped",
+        "type": "local",
+        "startOption": "disabled",
+        "DriverDN": "CN=CS SM DTF,CN=driverset0,O=System"
+    },
+    "Monitor.IDM.driverSet_Stats.drivers.CS_SM_DTF.ProcessedOperationsCount.publisher": {
+        "query": "29",
+        "status": 66501
+    },
+    "Monitor.IDM.driverSet_Stats.drivers.Clearing_Starter_DTF": {
+        "downTime": "240 days 19 hours 50 minutes 28 seconds 58 milliseconds",
+        "driver-state": "stopped",
+        "type": "local",
+        "startOption": "disabled",
+        "DriverDN": "CN=Clearing Starter DTF,CN=driverset0,O=System"
+    },
+    "Monitor.IDM.driverSet_Stats.drivers.DTF-TeamsTelephonie": {
+        "downTime": "259 days 5 hours 3 minutes 27 seconds 61 milliseconds",
+        "driver-state": "stopped",
+        "type": "local",
+        "startOption": "disabled",
+        "DriverDN": "CN=DTF-TeamsTelephonie,CN=driverset0,O=System"
+    },
+    "Monitor.IDM.driverSet_Stats.drivers.DTF-TeamsTelephonie.ProcessedOperationsCount.publisher": {
+        "query": "208",
+        "modify": "66"
+    },
+    "Monitor.IDM.driverSet_Stats.drivers.Exception_Group": {
+        "downTime": "252 days 21 hours 11 minutes 22 seconds 54 milliseconds",
+        "driver-state": "stopped",
+        "type": "local",
+        "startOption": "disabled",
+        "DriverDN": "CN=Exception Group,CN=driverset0,O=System"
+    },
+    "Monitor.IDM.driverSet_Stats.drivers.Exception_Group.ProcessedOperationsCount.publisher": {
+        "query": "500",
+        "status": 442621,
+        "modify": "20"
+    },
+    "Monitor.IDM.driverSet_Stats.drivers.FromConti2-Q": {
+        "downTime": "230 days 6 hours 56 minutes 58 seconds 60 milliseconds",
+        "driver-state": "stopped",
+        "type": "local",
+        "startOption": "disabled",
+        "DriverDN": "CN=FromConti2-Q,CN=driverset0,O=System"
+    },
+    "Monitor.IDM.driverSet_Stats.drivers.FromConti2-Q.ProcessedOperationsCount.publisher": {
+        "query": "340859",
+        "status": 158,
+        "delete": "23",
+        "query-schema": "1",
+        "modify-password": "903",
+        "modify": "157870",
+        "add": "28586"
+    },
+    "Monitor.IDM.driverSet_Stats.drivers.FromConti2-Q.ProcessedOperationsCount.subscriber": {
+        "query": "3109",
+        "rename": "2",
+        "delete": "80",
+        "modify": "44626",
+        "add": "153518"
+    },
+    "Monitor.IDM.driverSet_Stats.drivers.GCV-Copy-Handler": {
+        "downTime": "108 days 1 hours 18 minutes 57 milliseconds",
+        "driver-state": "stopped",
+        "type": "local",
+        "startOption": "disabled",
+        "DriverDN": "CN=GCV-Copy-Handler,CN=driverset0,O=System"
+    },
+    "Monitor.IDM.driverSet_Stats.drivers.GHR_Location_Driver": {
+        "driver-state": "running",
+        "type": "local",
+        "startOption": "autostart",
+        "DriverDN": "CN=GHR Location Driver,CN=driverset0,O=System",
+        "uptime": "35 days 7 hours 38 minutes 43 seconds 56 milliseconds"
+    },
+    "Monitor.IDM.driverSet_Stats.drivers.GHR_Location_Driver.ProcessedOperationsCount.publisher": {
+        "query": "49823",
+        "modify": "48960",
+        "add": "14"
+    },
+    "Monitor.IDM.driverSet_Stats.drivers.ID-Provider": {
+        "driver-state": "running",
+        "type": "local",
+        "startOption": "autostart",
+        "DriverDN": "CN=ID-Provider,CN=driverset0,O=System",
+        "uptime": "2 days 2 hours 57 minutes 56 seconds 58 milliseconds"
+    },
+    "Monitor.IDM.driverSet_Stats.drivers.Identity_Gateway_Integration_Module": {
+        "driver-state": "running",
+        "type": "local",
+        "startOption": "autostart",
+        "DriverDN": "CN=Identity Gateway Integration Module,CN=driverset0,O=System",
+        "uptime": "35 days 7 hours 38 minutes 31 seconds 61 milliseconds"
+    },
+    "Monitor.IDM.driverSet_Stats.drivers.Identity_Gateway_Integration_Module.ProcessedOperationsCount.publisher": {
+        "query": "602",
+        "add-association": "313",
+        "status": 351038,
+        "init-params": "71",
+        "modify": "435"
+    },
+    "Monitor.IDM.driverSet_Stats.drivers.Identity_Gateway_Integration_Module.ProcessedOperationsCount.subscriber": {
+        "query": "79430",
+        "rename": "17",
+        "delete": "11401",
+        "modify": "10411",
+        "add": "2671"
+    },
+    "Monitor.IDM.driverSet_Stats.drivers.Identity-BL-Jobs": {
+        "driver-state": "running",
+        "type": "local",
+        "startOption": "autostart",
+        "DriverDN": "CN=Identity-BL-Jobs,CN=driverset0,O=System",
+        "uptime": "35 days 7 hours 38 minutes 20 seconds 60 milliseconds"
+    },
+    "Monitor.IDM.driverSet_Stats.drivers.Identity-BL-Jobs.ProcessedOperationsCount.publisher": {
+        "query": "2833",
+        "status": 346351,
+        "modify": "482",
+        "add": "2"
+    },
+    "Monitor.IDM.driverSet_Stats.drivers.Identity-BL-Jobs.ProcessedOperationsCount.subscriber": {
+        "query": "2280",
+        "modify": "553",
+        "add": "1012"
+    },
+    "Monitor.IDM.driverSet_Stats.drivers.Identity-BL": {
+        "driver-state": "running",
+        "type": "local",
+        "startOption": "autostart",
+        "DriverDN": "CN=Identity-BL,CN=driverset0,O=System",
+        "uptime": "35 days 7 hours 38 minutes 21 seconds 56 milliseconds"
+    },
+    "Monitor.IDM.driverSet_Stats.drivers.Identity-BL.ProcessedOperationsCount.publisher": {
+        "query": "21639",
+        "status": 345446,
+        "delete": "9",
+        "modify": "6643"
+    },
+    "Monitor.IDM.driverSet_Stats.drivers.Identity-BL.ProcessedOperationsCount.subscriber": {
+        "query": "10",
+        "modify": "21956"
+    },
+    "Monitor.IDM.driverSet_Stats.drivers.Janitor": {
+        "driver-state": "running",
+        "type": "local",
+        "startOption": "autostart",
+        "DriverDN": "CN=Janitor,CN=driverset0,O=System",
+        "uptime": "35 days 7 hours 38 minutes 20 seconds 60 milliseconds"
+    },
+    "Monitor.IDM.driverSet_Stats.drivers.Janitor.ProcessedOperationsCount.publisher": {
+        "query": "423064",
+        "move": "4",
+        "modify": "406465",
+        "add": "242"
+    },
+    "Monitor.IDM.driverSet_Stats.drivers.Janitor.ProcessedOperationsCount.subscriber": {
+        "modify": "500977"
+    },
+    "Monitor.IDM.driverSet_Stats.drivers.KPI_Mailer": {
+        "driver-state": "running",
+        "type": "local",
+        "startOption": "autostart",
+        "DriverDN": "CN=KPI Mailer,CN=driverset0,O=System",
+        "uptime": "35 days 7 hours 38 minutes 20 seconds 53 milliseconds"
+    },
+    "Monitor.IDM.driverSet_Stats.drivers.KPI_Mailer.ProcessedOperationsCount.publisher": {
+        "trigger": "144"
+    },
+    "Monitor.IDM.driverSet_Stats.drivers.KPI_Mailer.ProcessedOperationsCount.subscriber": {
+        "trigger": "144"
+    },
+    "Monitor.IDM.driverSet_Stats.drivers.License_REST_Interface": {
+        "downTime": "30 days 23 hours 25 minutes 14 seconds 59 milliseconds",
+        "driver-state": "stopped",
+        "type": "local",
+        "startOption": "disabled",
+        "DriverDN": "CN=License REST Interface,CN=driverset0,O=System"
+    },
+    "Monitor.IDM.driverSet_Stats.drivers.License_REST_Interface.ProcessedOperationsCount.publisher": {
+        "query": "15"
+    },
+    "Monitor.IDM.driverSet_Stats.drivers.License-Mgmt-BL": {
+        "driver-state": "running",
+        "type": "local",
+        "startOption": "autostart",
+        "DriverDN": "CN=License-Mgmt-BL,CN=driverset0,O=System",
+        "uptime": "35 days 7 hours 38 minutes 20 seconds 54 milliseconds"
+    },
+    "Monitor.IDM.driverSet_Stats.drivers.License-Mgmt-BL.ProcessedOperationsCount.publisher": {
+        "query": "2808",
+        "status": 346192,
+        "modify": "1412",
+        "add": "9"
+    },
+    "Monitor.IDM.driverSet_Stats.drivers.License-Mgmt-BL.ProcessedOperationsCount.subscriber": {
+        "query": "25",
+        "modify": "977",
+        "add": "9"
+    },
+    "Monitor.IDM.driverSet_Stats.drivers.List_based_clearing": {
+        "driver-state": "running",
+        "type": "local",
+        "startOption": "autostart",
+        "DriverDN": "CN=List based clearing,CN=driverset0,O=System",
+        "uptime": "35 days 7 hours 38 minutes 19 seconds 59 milliseconds"
+    },
+    "Monitor.IDM.driverSet_Stats.drivers.List_based_clearing.ProcessedOperationsCount.publisher": {
+        "status": 319216
+    },
+    "Monitor.IDM.driverSet_Stats.drivers.MDAD-BL-Jobs": {
+        "downTime": "259 days 1 hours 41 minutes 51 seconds 52 milliseconds",
+        "driver-state": "stopped",
+        "type": "local",
+        "startOption": "disabled",
+        "DriverDN": "CN=MDAD-BL-Jobs,CN=driverset0,O=System"
+    },
+    "Monitor.IDM.driverSet_Stats.drivers.MDAD-BL-Jobs.ProcessedOperationsCount.publisher": {
+        "query": "224",
+        "status": 367332,
+        "modify": "224"
+    },
+    "Monitor.IDM.driverSet_Stats.drivers.MDAD-BL-Jobs.ProcessedOperationsCount.subscriber": {
+        "modify": "224"
+    },
+    "Monitor.IDM.driverSet_Stats.drivers.MDAD-BL": {
+        "downTime": "258 days 21 hours 42 minutes 12 seconds 61 milliseconds",
+        "driver-state": "stopped",
+        "type": "local",
+        "startOption": "disabled",
+        "DriverDN": "CN=MDAD-BL,CN=driverset0,O=System"
+    },
+    "Monitor.IDM.driverSet_Stats.drivers.MDAD-BL.ProcessedOperationsCount.publisher": {
+        "query": "4755",
+        "delete": "1",
+        "modify": "6499",
+        "add": "95"
+    },
+    "Monitor.IDM.driverSet_Stats.drivers.MDAD-BL.ProcessedOperationsCount.subscriber": {
+        "query": "97",
+        "modify": "4662",
+        "add": "95"
+    },
+    "Monitor.IDM.driverSet_Stats.drivers.MDAD": {
+        "downTime": "244 days 15 hours 11 minutes 9 seconds 58 milliseconds",
+        "driver-state": "stopped",
+        "type": "remote",
+        "startOption": "disabled",
+        "DriverDN": "CN=MDAD,CN=driverset0,O=System"
+    },
+    "Monitor.IDM.driverSet_Stats.drivers.MDAD.ProcessedOperationsCount.publisher": {
+        "check-password": "301",
+        "query": "1116858",
+        "query-ex": "101",
+        "add-association": "329",
+        "status": 516125,
+        "rename": "1",
+        "move": "2",
+        "init-params": "151",
+        "modify-password": "9",
+        "modify": "533929",
+        "add": "525722"
+    },
+    "Monitor.IDM.driverSet_Stats.drivers.MDAD.ProcessedOperationsCount.subscriber": {
+        "query": "52489",
+        "query-ex": "48",
+        "rename": "106",
+        "move": "4",
+        "delete": "1",
+        "check-object-password": "27",
+        "modify-password": "179",
+        "modify": "265857",
+        "add": "189"
+    },
+    "Monitor.IDM.driverSet_Stats.drivers.MS_Intune": {
+        "downTime": "252 days 21 hours 4 minutes 21 seconds 57 milliseconds",
+        "driver-state": "stopped",
+        "type": "local",
+        "startOption": "disabled",
+        "DriverDN": "CN=MS Intune,CN=driverset0,O=System"
+    },
+    "Monitor.IDM.driverSet_Stats.drivers.MS_Intune.ProcessedOperationsCount.publisher": {
+        "query": "12979129",
+        "status": 43,
+        "init-params": "2",
+        "modify": "10507935"
+    },
+    "Monitor.IDM.driverSet_Stats.drivers.MailGroup-BL": {
+        "downTime": "259 days 36 minutes 42 seconds 53 milliseconds",
+        "driver-state": "stopped",
+        "type": "local",
+        "startOption": "disabled",
+        "DriverDN": "CN=MailGroup-BL,CN=driverset0,O=System"
+    },
+    "Monitor.IDM.driverSet_Stats.drivers.MailGroup-BL.ProcessedOperationsCount.publisher": {
+        "query": "3238",
+        "rename": "2",
+        "modify": "1890"
+    },
+    "Monitor.IDM.driverSet_Stats.drivers.MailGroup-BL.ProcessedOperationsCount.subscriber": {
+        "query": "1342",
+        "rename": "2",
+        "modify": "1896"
+    },
+    "Monitor.IDM.driverSet_Stats.drivers.Move-Driver": {
+        "driver-state": "running",
+        "type": "local",
+        "startOption": "autostart",
+        "DriverDN": "CN=Move-Driver,CN=driverset0,O=System",
+        "uptime": "35 days 7 hours 38 minutes 19 seconds 51 milliseconds"
+    },
+    "Monitor.IDM.driverSet_Stats.drivers.Move-Driver.ProcessedOperationsCount.publisher": {
+        "query": "329",
+        "status": 361485,
+        "rename": "16",
+        "move": "95",
+        "modify": "519"
+    },
+    "Monitor.IDM.driverSet_Stats.drivers.Move-Driver.ProcessedOperationsCount.subscriber": {
+        "rename": "16",
+        "move": "95",
+        "modify": "329"
+    },
+    "Monitor.IDM.driverSet_Stats.drivers.Password_Change_Mailer": {
+        "driver-state": "running",
+        "type": "local",
+        "startOption": "autostart",
+        "DriverDN": "CN=Password Change Mailer,CN=driverset0,O=System",
+        "uptime": "35 days 7 hours 38 minutes 19 seconds 54 milliseconds"
+    },
+    "Monitor.IDM.driverSet_Stats.drivers.PasswordVerificationREST": {
+        "downTime": "258 days 21 hours 42 minutes 37 seconds 60 milliseconds",
+        "driver-state": "stopped",
+        "type": "local",
+        "startOption": "disabled",
+        "DriverDN": "CN=PasswordVerificationREST,CN=driverset0,O=System"
+    },
+    "Monitor.IDM.driverSet_Stats.drivers.PasswordVerificationREST.ProcessedOperationsCount.publisher": {
+        "query": "229",
+        "modify": "73"
+    },
+    "Monitor.IDM.driverSet_Stats.drivers.Powershell_WorkOrder": {
+        "downTime": "259 days 5 hours 15 minutes 34 seconds 59 milliseconds",
+        "driver-state": "stopped",
+        "type": "local",
+        "startOption": "disabled",
+        "DriverDN": "CN=Powershell WorkOrder,CN=driverset0,O=System"
+    },
+    "Monitor.IDM.driverSet_Stats.drivers.Powershell_WorkOrder.ProcessedOperationsCount.publisher": {
+        "query-ex": "1407795",
+        "status": 351955
+    },
+    "Monitor.IDM.driverSet_Stats.drivers.Powershell-Azure-Teams": {
+        "downTime": "259 days 20 hours 56 minutes 21 seconds 60 milliseconds",
+        "driver-state": "stopped",
+        "type": "remote",
+        "startOption": "disabled",
+        "DriverDN": "CN=Powershell-Azure-Teams,CN=driverset0,O=System"
+    },
+    "Monitor.IDM.driverSet_Stats.drivers.Powershell-Azure-Teams.ProcessedOperationsCount.publisher": {
+        "check-password": "66",
+        "query": "48",
+        "status": 77159,
+        "init-params": "52",
+        "modify": "23072"
+    },
+    "Monitor.IDM.driverSet_Stats.drivers.Powershell-Azure-Teams.ProcessedOperationsCount.subscriber": {
+        "session": "54458"
+    },
+    "Monitor.IDM.driverSet_Stats.drivers.Powershell-Azure": {
+        "downTime": "259 days 5 hours 35 minutes 15 seconds 55 milliseconds",
+        "driver-state": "stopped",
+        "type": "remote",
+        "startOption": "disabled",
+        "DriverDN": "CN=Powershell-Azure,CN=driverset0,O=System"
+    },
+    "Monitor.IDM.driverSet_Stats.drivers.Powershell-Azure.ProcessedOperationsCount.publisher": {
+        "check-password": "117",
+        "query": "104",
+        "add-association": "5900",
+        "status": 8491,
+        "init-params": "98",
+        "modify": "3482"
+    },
+    "Monitor.IDM.driverSet_Stats.drivers.Powershell-Azure.ProcessedOperationsCount.subscriber": {
+        "query": "61087",
+        "session": "22140",
+        "move": "2",
+        "delete": "4",
+        "modify": "174"
+    },
+    "Monitor.IDM.driverSet_Stats.drivers.Powershell-on-Prem-User": {
+        "downTime": "259 days 5 hours 23 minutes 10 seconds 61 milliseconds",
+        "driver-state": "stopped",
+        "type": "remote",
+        "startOption": "disabled",
+        "DriverDN": "CN=Powershell-on-Prem-User,CN=driverset0,O=System"
+    },
+    "Monitor.IDM.driverSet_Stats.drivers.Powershell-on-Prem-User.ProcessedOperationsCount.publisher": {
+        "check-password": "90",
+        "query": "145",
+        "add-association": "79",
+        "status": 24051,
+        "init-params": "70",
+        "modify": "795"
+    },
+    "Monitor.IDM.driverSet_Stats.drivers.Powershell-on-Prem-User.ProcessedOperationsCount.subscriber": {
+        "query": "113017",
+        "move": "5",
+        "delete": "8",
+        "modify": "147",
+        "MDADsession": "14",
+        "add": "3440"
+    },
+    "Monitor.IDM.driverSet_Stats.drivers.Powershell-on-Prem": {
+        "downTime": "259 days 20 hours 54 minutes 24 seconds 52 milliseconds",
+        "driver-state": "stopped",
+        "type": "remote",
+        "startOption": "disabled",
+        "DriverDN": "CN=Powershell-on-Prem,CN=driverset0,O=System"
+    },
+    "Monitor.IDM.driverSet_Stats.drivers.Powershell-on-Prem.ProcessedOperationsCount.publisher": {
+        "check-password": "101",
+        "query": "131",
+        "add-association": "23",
+        "status": 8455,
+        "init-params": "78",
+        "modify": "26"
+    },
+    "Monitor.IDM.driverSet_Stats.drivers.Powershell-on-Prem.ProcessedOperationsCount.subscriber": {
+        "query": "22805",
+        "rename": "1",
+        "add": "10"
+    },
+    "Monitor.IDM.driverSet_Stats.drivers.Referential_Integrity": {
+        "driver-state": "running",
+        "type": "local",
+        "startOption": "autostart",
+        "DriverDN": "CN=Referential Integrity,CN=driverset0,O=System",
+        "uptime": "35 days 7 hours 38 minutes 19 seconds 55 milliseconds"
+    },
+    "Monitor.IDM.driverSet_Stats.drivers.Referential_Integrity.ProcessedOperationsCount.publisher": {
+        "query": "9210",
+        "modify": "1216"
+    },
+    "Monitor.IDM.driverSet_Stats.drivers.Referential_Integrity.ProcessedOperationsCount.subscriber": {
+        "modify": "9304"
+    },
+    "Monitor.IDM.driverSet_Stats.drivers.Role_and_Resource_driver": {
+        "driver-state": "running",
+        "type": "local",
+        "startOption": "autostart",
+        "DriverDN": "CN=Role and Resource driver,CN=driverset0,O=System",
+        "uptime": "35 days 7 hours 38 minutes 18 seconds 52 milliseconds"
+    },
+    "Monitor.IDM.driverSet_Stats.drivers.Role_and_Resource_driver.ProcessedOperationsCount.publisher": {
+        "status": 394613,
+        "init-params": "259501"
+    },
+    "Monitor.IDM.driverSet_Stats.drivers.Role_and_Resource_driver.ProcessedOperationsCount.subscriber.nrf": {
+        "role": "989",
+        "resrequest": "187",
+        "identity": "129280",
+        "resourceassociation": "1001",
+        "request": "282"
+    },
+    "Monitor.IDM.driverSet_Stats.drivers.SAP_Auto_Clear": {
+        "driver-state": "running",
+        "type": "local",
+        "startOption": "autostart",
+        "DriverDN": "CN=SAP Auto Clear,CN=driverset0,O=System",
+        "uptime": "35 days 7 hours 38 minutes 18 seconds 57 milliseconds"
+    },
+    "Monitor.IDM.driverSet_Stats.drivers.SAP_Auto_Clear.ProcessedOperationsCount.publisher": {
+        "query": "5662",
+        "status": 345900,
+        "modify": "5512"
+    },
+    "Monitor.IDM.driverSet_Stats.drivers.SAP_Auto_Clear.ProcessedOperationsCount.subscriber": {
+        "modify": "5595"
+    },
+    "Monitor.IDM.driverSet_Stats.drivers.SAP_Bulkimport": {
+        "downTime": "258 days 21 hours 35 minutes 34 seconds 55 milliseconds",
+        "driver-state": "stopped",
+        "type": "local",
+        "startOption": "disabled",
+        "DriverDN": "CN=SAP Bulkimport,CN=driverset0,O=System"
+    },
+    "Monitor.IDM.driverSet_Stats.drivers.SAP_GHR_Writer": {
+        "downTime": "114 days 7 hours 3 minutes 5 seconds 53 milliseconds",
+        "driver-state": "stopped",
+        "type": "local",
+        "startOption": "disabled",
+        "DriverDN": "CN=SAP GHR Writer,CN=driverset0,O=System"
+    },
+    "Monitor.IDM.driverSet_Stats.drivers.SAP_GHR_Writer.ProcessedOperationsCount.publisher": {
+        "init-params": "250522"
+    },
+    "Monitor.IDM.driverSet_Stats.drivers.SAP_GHR_Writer.ProcessedOperationsCount.subscriber": {
+        "driver-operation-data": "1319",
+        "query": "1952"
+    },
+    "Monitor.IDM.driverSet_Stats.drivers.SAP_Mandanten_Import": {
+        "downTime": "254 days 22 hours 31 minutes 22 seconds 55 milliseconds",
+        "driver-state": "stopped",
+        "type": "local",
+        "startOption": "disabled",
+        "DriverDN": "CN=SAP Mandanten Import,CN=driverset0,O=System"
+    },
+    "Monitor.IDM.driverSet_Stats.drivers.SAP_Mandanten_Import.ProcessedOperationsCount.publisher": {
+        "query": "20",
+        "add": "5"
+    },
+    "Monitor.IDM.driverSet_Stats.drivers.SAP_PWD_Reset": {
+        "downTime": "254 days 22 hours 18 minutes 56 seconds 57 milliseconds",
+        "driver-state": "stopped",
+        "type": "local",
+        "startOption": "disabled",
+        "DriverDN": "CN=SAP PWD Reset,CN=driverset0,O=System"
+    },
+    "Monitor.IDM.driverSet_Stats.drivers.SAP-BL-LBR": {
+        "downTime": "258 days 21 hours 22 minutes 33 seconds 55 milliseconds",
+        "driver-state": "stopped",
+        "type": "local",
+        "startOption": "disabled",
+        "DriverDN": "CN=SAP-BL-LBR,CN=driverset0,O=System"
+    },
+    "Monitor.IDM.driverSet_Stats.drivers.SAP-BL-LBR.ProcessedOperationsCount.publisher": {
+        "query": "31539",
+        "status": 351975,
+        "modify": "14498"
+    },
+    "Monitor.IDM.driverSet_Stats.drivers.SAP-BL-LBR.ProcessedOperationsCount.subscriber": {
+        "modify": "31539"
+    },
+    "Monitor.IDM.driverSet_Stats.drivers.SAP-BL-SimpleAttributeLogic": {
+        "downTime": "258 days 21 hours 19 minutes 43 seconds 58 milliseconds",
+        "driver-state": "stopped",
+        "type": "local",
+        "startOption": "disabled",
+        "DriverDN": "CN=SAP-BL-SimpleAttributeLogic,CN=driverset0,O=System"
+    },
+    "Monitor.IDM.driverSet_Stats.drivers.SAP-BL-SimpleAttributeLogic.ProcessedOperationsCount.publisher": {
+        "query": "30424",
+        "modify": "300"
+    },
+    "Monitor.IDM.driverSet_Stats.drivers.SAP-BL-SimpleAttributeLogic.ProcessedOperationsCount.subscriber": {
+        "add": "15212"
+    },
+    "Monitor.IDM.driverSet_Stats.drivers.SAP-BL": {
+        "downTime": "258 days 21 hours 29 minutes 14 seconds 58 milliseconds",
+        "driver-state": "stopped",
+        "type": "local",
+        "startOption": "disabled",
+        "DriverDN": "CN=SAP-BL,CN=driverset0,O=System"
+    },
+    "Monitor.IDM.driverSet_Stats.drivers.SAP-BL.ProcessedOperationsCount.publisher": {
+        "remove-association": "1",
+        "query": "2822",
+        "query-ex": "102",
+        "add-association": "5054",
+        "delete": "106",
+        "modify": "1809"
+    },
+    "Monitor.IDM.driverSet_Stats.drivers.SAP-BL.ProcessedOperationsCount.subscriber": {
+        "SetSAPLock": "435",
+        "SetPoolFanOutAssociation": "53",
+        "ReSetKeyUserValue": "19",
+        "pwdreset": "3",
+        "DeleteOldSAPAccounts": "4",
+        "SapReactivate": "20",
+        "query": "2",
+        "pwdset": "1",
+        "SapFanIn": "865",
+        "modify": "209",
+        "SetKeyUserValue": "21",
+        "add": "18"
+    },
+    "Monitor.IDM.driverSet_Stats.drivers.SAP-FanIn-Delta-Life": {
+        "downTime": "258 days 5 hours 46 minutes 7 seconds 59 milliseconds",
+        "driver-state": "stopped",
+        "type": "remote",
+        "startOption": "disabled",
+        "DriverDN": "CN=SAP-FanIn-Delta-Life,CN=driverset0,O=System"
+    },
+    "Monitor.IDM.driverSet_Stats.drivers.SAP-FanIn-Delta-Life.ProcessedOperationsCount.publisher": {
+        "check-password": "154",
+        "query": "161676",
+        "status": 124033,
+        "init-params": "92",
+        "modify": "34962",
+        "add": "14965"
+    },
+    "Monitor.IDM.driverSet_Stats.drivers.SAP-FanIn-Delta-Life.ProcessedOperationsCount.subscriber": {
+        "check-object-password": "7",
+        "add": "113"
+    },
+    "Monitor.IDM.driverSet_Stats.drivers.SAP-FanOut-Pool-01": {
+        "downTime": "243 days 5 hours 38 minutes 49 seconds 56 milliseconds",
+        "driver-state": "stopped",
+        "type": "remote",
+        "startOption": "disabled",
+        "DriverDN": "CN=SAP-FanOut-Pool-01,CN=driverset0,O=System"
+    },
+    "Monitor.IDM.driverSet_Stats.drivers.SAP-FanOut-Pool-01.ProcessedOperationsCount.publisher": {
+        "remove-association": "6788",
+        "query": "29",
+        "check-password": "76",
+        "status": 352756,
+        "init-params": "47",
+        "modify": "12700",
+        "add": "74"
+    },
+    "Monitor.IDM.driverSet_Stats.drivers.SAP-FanOut-Pool-01.ProcessedOperationsCount.subscriber": {
+        "query": "4",
+        "modify": "6788"
+    },
+    "Monitor.IDM.driverSet_Stats.drivers.SAP-Fanout-Configuration": {
+        "downTime": "250 days 23 hours 44 minutes 32 seconds 53 milliseconds",
+        "driver-state": "stopped",
+        "type": "remote",
+        "startOption": "disabled",
+        "DriverDN": "CN=SAP-Fanout-Configuration,CN=driverset0,O=System"
+    },
+    "Monitor.IDM.driverSet_Stats.drivers.SAP-Fanout-Configuration.ProcessedOperationsCount.publisher": {
+        "check-password": "113",
+        "query": "82",
+        "status": 116449,
+        "init-params": "74"
+    },
+    "Monitor.IDM.driverSet_Stats.drivers.SAP-Fanout-Configuration.ProcessedOperationsCount.subscriber": {
+        "delete": "4",
+        "add": "13"
+    },
+    "Monitor.IDM.driverSet_Stats.drivers.SAP-Fanout-Distributor-Pack": {
+        "downTime": "77 days 23 hours 59 minutes 58 seconds 51 milliseconds",
+        "driver-state": "stopped",
+        "type": "local",
+        "startOption": "disabled",
+        "DriverDN": "CN=SAP-Fanout-Distributor-Pack,CN=driverset0,O=System"
+    },
+    "Monitor.IDM.driverSet_Stats.drivers.SAP-Fanout-Distributor-Pack.ProcessedOperationsCount.publisher": {
+        "query": "7",
+        "modify": "6"
+    },
+    "Monitor.IDM.driverSet_Stats.drivers.SAP-Fanout-Distributor-Pack.ProcessedOperationsCount.subscriber": {
+        "add": "12"
+    },
+    "Monitor.IDM.driverSet_Stats.drivers.SAP-Fanout-Pool-LCM-02": {
+        "downTime": "250 days 23 hours 24 minutes 38 seconds 56 milliseconds",
+        "driver-state": "stopped",
+        "type": "remote",
+        "startOption": "disabled",
+        "DriverDN": "CN=SAP-Fanout-Pool-LCM-02,CN=driverset0,O=System"
+    },
+    "Monitor.IDM.driverSet_Stats.drivers.SAP-Fanout-Pool-LCM-02.ProcessedOperationsCount.publisher": {
+        "remove-association": "5502",
+        "query": "39",
+        "check-password": "82",
+        "status": 343914,
+        "init-params": "34",
+        "modify": "13779",
+        "add": "117"
+    },
+    "Monitor.IDM.driverSet_Stats.drivers.SAP-Fanout-Pool-LCM-02.ProcessedOperationsCount.subscriber": {
+        "query": "5647",
+        "modify-password": "2",
+        "modify": "5514",
+        "add": "14"
+    },
+    "Monitor.IDM.driverSet_Stats.drivers.SAP-Fanout-WorkOrder-Scheduler": {
+        "downTime": "28 days 6 hours 5 minutes 21 seconds 54 milliseconds",
+        "driver-state": "stopped",
+        "type": "local",
+        "startOption": "disabled",
+        "DriverDN": "CN=SAP-Fanout-WorkOrder-Scheduler,CN=driverset0,O=System"
+    },
+    "Monitor.IDM.driverSet_Stats.drivers.SAP-Fanout-WorkOrder-Scheduler.ProcessedOperationsCount.publisher": {
+        "status": 34852
+    },
+    "Monitor.IDM.driverSet_Stats.drivers.SAP-Fanout-WorkOrder-Scheduler.ProcessedOperationsCount.subscriber": {
+        "add": "5"
+    },
+    "Monitor.IDM.driverSet_Stats.drivers.SAP-GHR-Conti-2018": {
+        "downTime": "245 days 17 minutes 21 seconds 54 milliseconds",
+        "driver-state": "stopped",
+        "type": "remote",
+        "startOption": "disabled",
+        "DriverDN": "CN=SAP-GHR-Conti-2018,CN=driverset0,O=System"
+    },
+    "Monitor.IDM.driverSet_Stats.drivers.SAP-GHR-Conti-2018.ProcessedOperationsCount.publisher": {
+        "check-password": "125",
+        "query": "26533994",
+        "query-ex": "561099",
+        "status": 116713,
+        "init-params": "75",
+        "modify": "20763673",
+        "add": "103214"
+    },
+    "Monitor.IDM.driverSet_Stats.drivers.SAP-GHR-Conti-2018.ProcessedOperationsCount.subscriber": {
+        "trigger": "243"
+    },
+    "Monitor.IDM.driverSet_Stats.drivers.SAP-General-Workorder": {
+        "downTime": "250 days 23 hours 21 minutes 4 seconds 54 milliseconds",
+        "driver-state": "stopped",
+        "type": "local",
+        "startOption": "disabled",
+        "DriverDN": "CN=SAP-General-Workorder,CN=driverset0,O=System"
+    },
+    "Monitor.IDM.driverSet_Stats.drivers.SAP-General-Workorder.ProcessedOperationsCount.publisher": {
+        "query": "3",
+        "query-ex": "1421614",
+        "status": 355410,
+        "delete": "1",
+        "modify": "2"
+    },
+    "Monitor.IDM.driverSet_Stats.drivers.SAPCUA_E32": {
+        "downTime": "246 days 21 hours 59 minutes 24 seconds 53 milliseconds",
+        "driver-state": "stopped",
+        "type": "remote",
+        "startOption": "disabled",
+        "DriverDN": "CN=SAPCUA_E32,CN=driverset0,O=System"
+    },
+    "Monitor.IDM.driverSet_Stats.drivers.SAPCUA_E32.ProcessedOperationsCount.publisher": {
+        "remove-association": "38447",
+        "query": "62",
+        "check-password": "152",
+        "status": 90,
+        "init-params": "89",
+        "modify": "93911",
+        "add": "2717"
+    },
+    "Monitor.IDM.driverSet_Stats.drivers.SAPCUA_E32.ProcessedOperationsCount.subscriber": {
+        "query": "46900",
+        "modify-password": "218",
+        "modify": "42773",
+        "add": "428"
+    },
+    "Monitor.IDM.driverSet_Stats.drivers.Test_Named_Pwd": {
+        "driver-state": "running",
+        "type": "local",
+        "startOption": "autostart",
+        "DriverDN": "CN=Test Named Pwd,CN=driverset0,O=System",
+        "uptime": "35 days 7 hours 38 minutes 17 seconds 53 milliseconds"
+    },
+    "Monitor.IDM.driverSet_Stats.drivers.Test_Named_Pwd.ProcessedOperationsCount.publisher": {
+        "query": "62"
+    },
+    "Monitor.IDM.driverSet_Stats.drivers.Test_Named_Pwd.ProcessedOperationsCount.subscriber": {
+        "query": "62"
+    },
+    "Monitor.IDM.driverSet_Stats.drivers.Unique_Email_Import": {
+        "driver-state": "running",
+        "type": "local",
+        "startOption": "autostart",
+        "DriverDN": "CN=Unique Email Import,CN=driverset0,O=System",
+        "uptime": "35 days 7 hours 38 minutes 7 seconds 57 milliseconds"
+    },
+    "Monitor.IDM.driverSet_Stats.drivers.Unique_Email_Import.ProcessedOperationsCount.publisher": {
+        "status": 343983
+    },
+    "Monitor.IDM.driverSet_Stats.drivers.Unique_Email_Maintenance": {
+        "driver-state": "running",
+        "type": "local",
+        "startOption": "autostart",
+        "DriverDN": "CN=Unique Email Maintenance,CN=driverset0,O=System",
+        "uptime": "35 days 7 hours 38 minutes 7 seconds 54 milliseconds"
+    },
+    "Monitor.IDM.driverSet_Stats.drivers.Unique_Email_Maintenance.ProcessedOperationsCount.publisher": {
+        "query": "413061",
+        "status": 341150,
+        "modify": "131192",
+        "add": "90698"
+    },
+    "Monitor.IDM.driverSet_Stats.drivers.Unique_Email_Maintenance.ProcessedOperationsCount.subscriber": {
+        "query": "281785",
+        "modify": "131276",
+        "add": "267479"
+    },
+    "Monitor.IDM.driverSet_Stats.drivers.UserApp_wf_fix": {
+        "driver-state": "running",
+        "type": "local",
+        "startOption": "autostart",
+        "DriverDN": "CN=UserApp wf fix,CN=driverset0,O=System",
+        "uptime": "35 days 7 hours 38 minutes 7 seconds 59 milliseconds"
+    },
+    "Monitor.IDM.driverSet_Stats.drivers.UserApp_wf_fix.ProcessedOperationsCount.publisher": {
+        "status": 5938
+    },
+    "Monitor.IDM.driverSet_Stats.drivers.UserApplication": {
+        "driver-state": "running",
+        "type": "local",
+        "startOption": "autostart",
+        "DriverDN": "CN=UserApplication,CN=driverset0,O=System",
+        "uptime": "35 days 7 hours 38 minutes 5 seconds 51 milliseconds"
+    },
+    "Monitor.IDM.driverSet_Stats.drivers.UserApplication.ProcessedOperationsCount.publisher": {
+        "modify": "190"
+    },
+    "Monitor.IDM.driverSet_Stats.drivers.UserApplication.ProcessedOperationsCount.subscriber": {
+        "rename": "21",
+        "delete": "433428",
+        "modify": "130931",
+        "add": "38"
+    },
+    "Monitor.IDM.driverSet_Stats.drivers.WorkOrder_AD": {
+        "downTime": "245 days 4 hours 54 minutes 30 seconds 51 milliseconds",
+        "driver-state": "stopped",
+        "type": "local",
+        "startOption": "disabled",
+        "DriverDN": "CN=WorkOrder AD,CN=driverset0,O=System"
+    },
+    "Monitor.IDM.driverSet_Stats.drivers.WorkOrder_AD.ProcessedOperationsCount.publisher": {
+        "query": "162",
+        "query-ex": "1984694",
+        "status": 345575,
+        "delete": "55",
+        "modify": "72",
+        "add": "59"
+    },
+    "Monitor.IDM.driverSet_Stats.drivers.WorkOrder_Identity": {
+        "driver-state": "running",
+        "type": "local",
+        "startOption": "autostart",
+        "DriverDN": "CN=WorkOrder Identity,CN=driverset0,O=System",
+        "uptime": "35 days 7 hours 38 minutes 4 seconds 51 milliseconds"
+    },
+    "Monitor.IDM.driverSet_Stats.drivers.WorkOrder_Identity.ProcessedOperationsCount.publisher": {
+        "query": "35",
+        "query-ex": "1384239",
+        "status": 346065,
+        "delete": "2",
+        "modify": "13"
+    },
+    "Monitor.IDM.driverSet_Stats.drivers.WorkOrder_Mail": {
+        "driver-state": "running",
+        "type": "local",
+        "startOption": "autostart",
+        "DriverDN": "CN=WorkOrder Mail,CN=driverset0,O=System",
+        "uptime": "35 days 7 hours 38 minutes 4 seconds 61 milliseconds"
+    },
+    "Monitor.IDM.driverSet_Stats.drivers.WorkOrder_Mail.ProcessedOperationsCount.publisher": {
+        "query": "9219",
+        "query-ex": "1510816",
+        "status": 344822,
+        "delete": "265",
+        "modify": "134",
+        "add": "134"
+    },
+    "Monitor.IDM.driverSet_Stats.drivers.eDir-Pwd-Checker": {
+        "driver-state": "running",
+        "type": "local",
+        "startOption": "autostart",
+        "DriverDN": "CN=eDir-Pwd-Checker,CN=driverset0,O=System",
+        "uptime": "35 days 7 hours 38 minutes 43 seconds 60 milliseconds"
+    },
+    "Monitor.IDM.driverSet_Stats.drivers.eDir-Pwd-Checker.ProcessedOperationsCount.subscriber": {
+        "add": "133334"
+    },
+    "Monitor.IDM.driverSet_Stats.drivers.eDir_ident2tempIdent": {
+        "driver-state": "running",
+        "type": "local",
+        "startOption": "autostart",
+        "DriverDN": "CN=eDir_ident2tempIdent,CN=driverset0,O=System",
+        "uptime": "35 days 7 hours 38 minutes 44 seconds 61 milliseconds"
+    },
+    "Monitor.IDM.driverSet_Stats.drivers.eDir_ident2tempIdent.ProcessedOperationsCount.publisher": {
+        "query": "29695",
+        "status": 8,
+        "query-schema": "1",
+        "modify": "13425",
+        "add": "33"
+    },
+    "Monitor.IDM.driverSet_Stats.drivers.eDir_ident2tempIdent.ProcessedOperationsCount.subscriber": {
+        "query": "1484",
+        "delete": "14",
+        "modify": "47",
+        "add": "40924"
+    },
+    "Monitor.IDM.driverSet_Stats.drivers.eDir_tempIdent2ident": {
+        "driver-state": "running",
+        "type": "local",
+        "startOption": "autostart",
+        "DriverDN": "CN=eDir_tempIdent2ident,CN=driverset0,O=System",
+        "uptime": "35 days 7 hours 38 minutes 43 seconds 52 milliseconds"
+    },
+    "Monitor.IDM.driverSet_Stats.drivers.eDir_tempIdent2ident.ProcessedOperationsCount.publisher": {
+        "query": "6358",
+        "status": 12,
+        "query-schema": "1",
+        "modify": "108",
+        "add": "28"
+    },
+    "Monitor.IDM.driverSet_Stats.drivers.eDir_tempIdent2ident.ProcessedOperationsCount.subscriber": {
+        "query": "49",
+        "modify": "11199",
+        "add": "3864"
+    },
+    "Monitor.IDM.job_stats.driverSet.StatisticsJob": {
+        "nextScheduledRun": "1763766000",
+        "configuration": "enabled",
+        "JobDN": "CN=StatisticsJob,CN=driverset0,O=System",
+        "status": "stopped",
+        "containment": "DirXML-DriverSet"
+    },
+    "Monitor.IDM.job_stats.drivers.AD_Maintenance.Maintenance": {
+        "nextScheduledRun": "0",
+        "configuration": "disabled",
+        "JobDN": "CN=Maintenance,CN=AD Maintenance,CN=driverset0,O=System",
+        "status": "stopped",
+        "containment": "DirXML-Driver"
+    },
+    "Monitor.IDM.job_stats.drivers.AD_Maintenance.MaintenanceForPsAzureAssoc": {
+        "nextScheduledRun": "0",
+        "configuration": "disabled",
+        "JobDN": "CN=MaintenanceForPsAzureAssoc,CN=AD Maintenance,CN=driverset0,O=System",
+        "status": "stopped",
+        "containment": "DirXML-Driver"
+    },
+    "Monitor.IDM.job_stats.drivers.AD2SAPSSO.AD2SAPSSO": {
+        "nextScheduledRun": "0",
+        "configuration": "disabled",
+        "JobDN": "CN=AD2SAPSSO,CN=AD2SAPSSO,CN=driverset0,O=System",
+        "status": "stopped",
+        "containment": "DirXML-Driver"
+    },
+    "Monitor.IDM.job_stats.drivers.AD2SAPSSO.Initial_set_cSAPAccAlias": {
+        "nextScheduledRun": "0",
+        "configuration": "disabled",
+        "JobDN": "CN=Initial_set_cSAPAccAlias,CN=AD2SAPSSO,CN=driverset0,O=System",
+        "status": "stopped",
+        "containment": "DirXML-Driver"
+    },
+    "Monitor.IDM.job_stats.drivers.Account_Affiliation_Handler.PermissionOnboarding": {
+        "nextScheduledRun": "0",
+        "configuration": "disabled",
+        "JobDN": "CN=PermissionOnboarding,CN=Account Affiliation Handler,CN=driverset0,O=System",
+        "status": "stopped",
+        "containment": "DirXML-Driver"
+    },
+    "Monitor.IDM.job_stats.drivers.Account_Sync_Driver.SyncOnTrigger": {
+        "nextScheduledRun": "0",
+        "configuration": "disabled",
+        "JobDN": "CN=SyncOnTrigger,CN=Account Sync Driver,CN=driverset0,O=System",
+        "status": "stopped",
+        "containment": "DirXML-Driver"
+    },
+    "Monitor.IDM.job_stats.drivers.Admin-BL-Jobs.Delete_PWD_expiration_attributes": {
+        "nextScheduledRun": "0",
+        "configuration": "disabled",
+        "JobDN": "CN=Delete_PWD_expiration_attributes,CN=Admin-BL-Jobs,CN=driverset0,O=System",
+        "status": "stopped",
+        "containment": "DirXML-Driver"
+    },
+    "Monitor.IDM.job_stats.drivers.Admin-BL-Jobs.Initial_set_auxExchSIPaddress": {
+        "nextScheduledRun": "0",
+        "configuration": "disabled",
+        "JobDN": "CN=Initial_set_auxExchSIPaddress,CN=Admin-BL-Jobs,CN=driverset0,O=System",
+        "status": "stopped",
+        "containment": "DirXML-Driver"
+    },
+    "Monitor.IDM.job_stats.drivers.Admin-BL-Jobs.ROAR_WP4.4_set_new_end_date": {
+        "nextScheduledRun": "0",
+        "configuration": "disabled",
+        "JobDN": "CN=ROAR_WP4.4_set_new_end_date,CN=Admin-BL-Jobs,CN=driverset0,O=System",
+        "status": "stopped",
+        "containment": "DirXML-Driver"
+    },
+    "Monitor.IDM.job_stats.drivers.Admin-BL-Jobs.test-job": {
+        "nextScheduledRun": "0",
+        "configuration": "disabled",
+        "JobDN": "CN=test-job,CN=Admin-BL-Jobs,CN=driverset0,O=System",
+        "status": "stopped",
+        "containment": "DirXML-Driver"
+    },
+    "Monitor.IDM.job_stats.drivers.Clearing_Starter_DTF.DailyTrigger": {
+        "nextScheduledRun": "1763715600",
+        "configuration": "disabled",
+        "JobDN": "CN=DailyTrigger,CN=Clearing Starter DTF,CN=driverset0,O=System",
+        "status": "stopped",
+        "containment": "DirXML-Driver"
+    },
+    "Monitor.IDM.job_stats.drivers.Identity-BL-Jobs.BuildIdent2LocationReference": {
+        "nextScheduledRun": "0",
+        "configuration": "enabled",
+        "JobDN": "CN=BuildIdent2LocationReference,CN=Identity-BL-Jobs,CN=driverset0,O=System",
+        "status": "stopped",
+        "containment": "DirXML-Driver"
+    },
+    "Monitor.IDM.job_stats.drivers.Identity-BL-Jobs.Deactivation": {
+        "nextScheduledRun": "1763701200",
+        "configuration": "enabled",
+        "JobDN": "CN=Deactivation,CN=Identity-BL-Jobs,CN=driverset0,O=System",
+        "status": "stopped",
+        "containment": "DirXML-Driver"
+    },
+    "Monitor.IDM.job_stats.drivers.Identity-BL-Jobs.LCMTransfer": {
+        "nextScheduledRun": "0",
+        "configuration": "disabled",
+        "JobDN": "CN=LCMTransfer,CN=Identity-BL-Jobs,CN=driverset0,O=System",
+        "status": "stopped",
+        "containment": "DirXML-Driver"
+    },
+    "Monitor.IDM.job_stats.drivers.Identity-BL-Jobs.RevalidationDirectReports": {
+        "nextScheduledRun": "0",
+        "configuration": "enabled",
+        "JobDN": "CN=RevalidationDirectReports,CN=Identity-BL-Jobs,CN=driverset0,O=System",
+        "status": "stopped",
+        "containment": "DirXML-Driver"
+    },
+    "Monitor.IDM.job_stats.drivers.Identity-BL-Jobs.SD-PIN_Revalidation_-_Review": {
+        "nextScheduledRun": "1763674200",
+        "configuration": "enabled",
+        "JobDN": "CN=SD-PIN Revalidation - Review,CN=Identity-BL-Jobs,CN=driverset0,O=System",
+        "status": "stopped",
+        "containment": "DirXML-Driver"
+    },
+    "Monitor.IDM.job_stats.drivers.Identity-BL-Jobs.Set_auxMailPrefix_attributes": {
+        "nextScheduledRun": "0",
+        "configuration": "disabled",
+        "JobDN": "CN=Set_auxMailPrefix_attributes,CN=Identity-BL-Jobs,CN=driverset0,O=System",
+        "status": "stopped",
+        "containment": "DirXML-Driver"
+    },
+    "Monitor.IDM.job_stats.drivers.Identity-BL-Jobs.Termination": {
+        "nextScheduledRun": "1763686800",
+        "configuration": "enabled",
+        "JobDN": "CN=Termination,CN=Identity-BL-Jobs,CN=driverset0,O=System",
+        "status": "stopped",
+        "containment": "DirXML-Driver"
+    },
+    "Monitor.IDM.job_stats.drivers.Janitor.CO-Correction": {
+        "nextScheduledRun": "0",
+        "configuration": "enabled",
+        "JobDN": "CN=CO-Correction,CN=Janitor,CN=driverset0,O=System",
+        "status": "stopped",
+        "containment": "DirXML-Driver"
+    },
+    "Monitor.IDM.job_stats.drivers.Janitor.Check_Identity_auxSAMName": {
+        "nextScheduledRun": "0",
+        "configuration": "enabled",
+        "JobDN": "CN=Check_Identity_auxSAMName,CN=Janitor,CN=driverset0,O=System",
+        "status": "stopped",
+        "containment": "DirXML-Driver"
+    },
+    "Monitor.IDM.job_stats.drivers.Janitor.Check_SAPAccount_cSAPAccIAMUID": {
+        "nextScheduledRun": "0",
+        "configuration": "disabled",
+        "JobDN": "CN=Check_SAPAccount_cSAPAccIAMUID,CN=Janitor,CN=driverset0,O=System",
+        "status": "stopped",
+        "containment": "DirXML-Driver"
+    },
+    "Monitor.IDM.job_stats.drivers.Janitor.IdentMgr2DR": {
+        "nextScheduledRun": "0",
+        "configuration": "enabled",
+        "JobDN": "CN=IdentMgr2DR,CN=Janitor,CN=driverset0,O=System",
+        "status": "stopped",
+        "containment": "DirXML-Driver"
+    },
+    "Monitor.IDM.job_stats.drivers.Janitor.KPICount": {
+        "nextScheduledRun": "1763687100",
+        "configuration": "disabled",
+        "JobDN": "CN=KPICount,CN=Janitor,CN=driverset0,O=System",
+        "status": "stopped",
+        "containment": "DirXML-Driver"
+    },
+    "Monitor.IDM.job_stats.drivers.Janitor.KPICreate": {
+        "nextScheduledRun": "1763686800",
+        "configuration": "enabled",
+        "JobDN": "CN=KPICreate,CN=Janitor,CN=driverset0,O=System",
+        "status": "stopped",
+        "containment": "DirXML-Driver"
+    },
+    "Monitor.IDM.job_stats.drivers.Janitor.SAPClientName": {
+        "nextScheduledRun": "0",
+        "configuration": "enabled",
+        "JobDN": "CN=SAPClientName,CN=Janitor,CN=driverset0,O=System",
+        "status": "stopped",
+        "containment": "DirXML-Driver"
+    },
+    "Monitor.IDM.job_stats.drivers.Janitor.Test": {
+        "nextScheduledRun": "0",
+        "configuration": "enabled",
+        "JobDN": "CN=Test,CN=Janitor,CN=driverset0,O=System",
+        "status": "stopped",
+        "containment": "DirXML-Driver"
+    },
+    "Monitor.IDM.job_stats.drivers.Janitor.samName": {
+        "nextScheduledRun": "0",
+        "configuration": "enabled",
+        "JobDN": "CN=samName,CN=Janitor,CN=driverset0,O=System",
+        "status": "stopped",
+        "containment": "DirXML-Driver"
+    },
+    "Monitor.IDM.job_stats.drivers.KPI_Mailer.Send_KPI_JOB": {
+        "nextScheduledRun": "1763712000",
+        "configuration": "enabled",
+        "JobDN": "CN=Send KPI JOB,CN=KPI Mailer,CN=driverset0,O=System",
+        "status": "stopped",
+        "containment": "DirXML-Driver"
+    },
+    "Monitor.IDM.job_stats.drivers.License-Mgmt-BL.Azure_license_onboarding": {
+        "nextScheduledRun": "0",
+        "configuration": "enabled",
+        "JobDN": "CN=Azure_license_onboarding,CN=License-Mgmt-BL,CN=driverset0,O=System",
+        "status": "stopped",
+        "containment": "DirXML-Driver"
+    },
+    "Monitor.IDM.job_stats.drivers.MDAD-BL-Jobs.Deactivation_of_not_used_AD_Accounts": {
+        "nextScheduledRun": "1763706600",
+        "configuration": "enabled",
+        "JobDN": "CN=Deactivation_of_not_used_AD_Accounts,CN=MDAD-BL-Jobs,CN=driverset0,O=System",
+        "status": "stopped",
+        "containment": "DirXML-Driver"
+    },
+    "Monitor.IDM.job_stats.drivers.MDAD-BL-Jobs.Password_older_than_1_year": {
+        "nextScheduledRun": "0",
+        "configuration": "enabled",
+        "JobDN": "CN=Password older than 1 year,CN=MDAD-BL-Jobs,CN=driverset0,O=System",
+        "status": "stopped",
+        "containment": "DirXML-Driver"
+    },
+    "Monitor.IDM.job_stats.drivers.MDAD-BL.ADAcctType": {
+        "nextScheduledRun": "0",
+        "configuration": "disabled",
+        "JobDN": "CN=ADAcctType,CN=MDAD-BL,CN=driverset0,O=System",
+        "status": "stopped",
+        "containment": "DirXML-Driver"
+    },
+    "Monitor.IDM.job_stats.drivers.MDAD.AzureJob": {
+        "nextScheduledRun": "0",
+        "configuration": "enabled",
+        "JobDN": "CN=AzureJob,CN=MDAD,CN=driverset0,O=System",
+        "status": "stopped",
+        "containment": "DirXML-Driver"
+    },
+    "Monitor.IDM.job_stats.drivers.MDAD.Import_Application_Attributes": {
+        "nextScheduledRun": "0",
+        "configuration": "disabled",
+        "JobDN": "CN=Import_Application_Attributes,CN=MDAD,CN=driverset0,O=System",
+        "status": "stopped",
+        "containment": "DirXML-Driver"
+    },
+    "Monitor.IDM.job_stats.drivers.MDAD.PermissionOnboarding": {
+        "nextScheduledRun": "0",
+        "configuration": "disabled",
+        "JobDN": "CN=PermissionOnboarding,CN=MDAD,CN=driverset0,O=System",
+        "status": "stopped",
+        "containment": "DirXML-Driver"
+    },
+    "Monitor.IDM.job_stats.drivers.MDAD.SyncMgr": {
+        "nextScheduledRun": "0",
+        "configuration": "disabled",
+        "JobDN": "CN=SyncMgr,CN=MDAD,CN=driverset0,O=System",
+        "status": "stopped",
+        "containment": "DirXML-Driver"
+    },
+    "Monitor.IDM.job_stats.drivers.MailGroup-BL.Retry_Contact_Role_grant_during_onboarding": {
+        "nextScheduledRun": "1763646300",
+        "configuration": "enabled",
+        "JobDN": "CN=Retry_Contact_Role_grant_during_onboarding,CN=MailGroup-BL,CN=driverset0,O=System",
+        "status": "stopped",
+        "containment": "DirXML-Driver"
+    },
+    "Monitor.IDM.job_stats.drivers.Powershell-Azure-Teams.CSPHS-Retry": {
+        "nextScheduledRun": "1763646480",
+        "configuration": "enabled",
+        "JobDN": "CN=CSPHS-Retry,CN=Powershell-Azure-Teams,CN=driverset0,O=System",
+        "status": "stopped",
+        "containment": "DirXML-Driver"
+    },
+    "Monitor.IDM.job_stats.drivers.Powershell-Azure-Teams.CSPOWSHUSACP-Retry-Job": {
+        "nextScheduledRun": "1763647200",
+        "configuration": "enabled",
+        "JobDN": "CN=CSPOWSHUSACP-Retry-Job,CN=Powershell-Azure-Teams,CN=driverset0,O=System",
+        "status": "stopped",
+        "containment": "DirXML-Driver"
+    },
+    "Monitor.IDM.job_stats.drivers.Powershell-Azure.CSPOWSHOLUS-Azure-SyncedTest": {
+        "nextScheduledRun": "0",
+        "configuration": "enabled",
+        "JobDN": "CN=CSPOWSHOLUS-Azure-SyncedTest,CN=Powershell-Azure,CN=driverset0,O=System",
+        "status": "stopped",
+        "containment": "DirXML-Driver"
+    },
+    "Monitor.IDM.job_stats.drivers.Powershell-Azure.CSPSHOLUSR-Retry-Online-Mailbox-Check": {
+        "nextScheduledRun": "1763646300",
+        "configuration": "enabled",
+        "JobDN": "CN=CSPSHOLUSR-Retry-Online-Mailbox-Check,CN=Powershell-Azure,CN=driverset0,O=System",
+        "status": "stopped",
+        "containment": "DirXML-Driver"
+    },
+    "Monitor.IDM.job_stats.drivers.Powershell-on-Prem-User.CSPOWSHMMAGR-Ad-SyncRetry": {
+        "nextScheduledRun": "1763646300",
+        "configuration": "enabled",
+        "JobDN": "CN=CSPOWSHMMAGR-Ad-SyncRetry,CN=Powershell-on-Prem-User,CN=driverset0,O=System",
+        "status": "stopped",
+        "containment": "DirXML-Driver"
+    },
+    "Monitor.IDM.job_stats.drivers.Powershell-on-Prem-User.CSPWSHOP-Trigger-AcceptedDomain": {
+        "nextScheduledRun": "1763686800",
+        "configuration": "enabled",
+        "JobDN": "CN=CSPWSHOP-Trigger-AcceptedDomain,CN=Powershell-on-Prem-User,CN=driverset0,O=System",
+        "status": "stopped",
+        "containment": "DirXML-Driver"
+    },
+    "Monitor.IDM.job_stats.drivers.Powershell-on-Prem-User.CreateContactRetry": {
+        "nextScheduledRun": "1763646300",
+        "configuration": "enabled",
+        "JobDN": "CN=CreateContactRetry,CN=Powershell-on-Prem-User,CN=driverset0,O=System",
+        "status": "stopped",
+        "containment": "DirXML-Driver"
+    },
+    "Monitor.IDM.job_stats.drivers.Powershell-on-Prem.CSPOWSHMMAGR-Ad-SyncRetry": {
+        "nextScheduledRun": "1763646300",
+        "configuration": "enabled",
+        "JobDN": "CN=CSPOWSHMMAGR-Ad-SyncRetry,CN=Powershell-on-Prem,CN=driverset0,O=System",
+        "status": "stopped",
+        "containment": "DirXML-Driver"
+    },
+    "Monitor.IDM.job_stats.drivers.SAP_Auto_Clear.Check_SAPAccount_cSAPAccIAMUID": {
+        "nextScheduledRun": "0",
+        "configuration": "disabled",
+        "JobDN": "CN=Check_SAPAccount_cSAPAccIAMUID,CN=SAP Auto Clear,CN=driverset0,O=System",
+        "status": "stopped",
+        "containment": "DirXML-Driver"
+    },
+    "Monitor.IDM.job_stats.drivers.SAP-BL-LBR.Initial_set_new_cSAPAccAttributes": {
+        "nextScheduledRun": "0",
+        "configuration": "enabled",
+        "JobDN": "CN=Initial_set_new_cSAPAccAttributes,CN=SAP-BL-LBR,CN=driverset0,O=System",
+        "status": "stopped",
+        "containment": "DirXML-Driver"
+    },
+    "Monitor.IDM.job_stats.drivers.SAP-BL.CS-SAP-BL-CLIEX-Iteration": {
+        "nextScheduledRun": "1763646420",
+        "configuration": "enabled",
+        "JobDN": "CN=CS-SAP-BL-CLIEX-Iteration,CN=SAP-BL,CN=driverset0,O=System",
+        "status": "stopped",
+        "containment": "DirXML-Driver"
+    },
+    "Monitor.IDM.job_stats.drivers.SAP-Fanout-WorkOrder-Scheduler.RetryTimer": {
+        "nextScheduledRun": "1763646600",
+        "configuration": "enabled",
+        "JobDN": "CN=RetryTimer,CN=SAP-Fanout-WorkOrder-Scheduler,CN=driverset0,O=System",
+        "status": "stopped",
+        "containment": "DirXML-Driver"
+    },
+    "Monitor.IDM.job_stats.drivers.SAP-GHR-Conti-2018.runGHR": {
+        "nextScheduledRun": "1763692740",
+        "configuration": "enabled",
+        "JobDN": "CN=runGHR,CN=SAP-GHR-Conti-2018,CN=driverset0,O=System",
+        "status": "stopped",
+        "containment": "DirXML-Driver"
+    },
+    "Monitor.IDM.job_stats.drivers.Test_Named_Pwd.Test_Named_PWD": {
+        "nextScheduledRun": "1763856000",
+        "configuration": "enabled",
+        "JobDN": "CN=Test Named PWD,CN=Test Named Pwd,CN=driverset0,O=System",
+        "status": "stopped",
+        "containment": "DirXML-Driver"
+    },
+    "Monitor.IDM.job_stats.drivers.Unique_Email_Maintenance.CSUNEMAILMAI-calculateEmailPrefixes": {
+        "nextScheduledRun": "0",
+        "configuration": "enabled",
+        "JobDN": "CN=CSUNEMAILMAI-calculateEmailPrefixes,CN=Unique Email Maintenance,CN=driverset0,O=System",
+        "status": "stopped",
+        "containment": "DirXML-Driver"
+    },
+    "Monitor.IDM.job_stats.drivers.UserApp_wf_fix.Delete_oidpInstanceData": {
+        "nextScheduledRun": "1763668800",
+        "configuration": "enabled",
+        "JobDN": "CN=Delete_oidpInstanceData,CN=UserApp wf fix,CN=driverset0,O=System",
+        "status": "stopped",
+        "containment": "DirXML-Driver"
+    },
+    "Monitor.IDM.job_stats.drivers.eDir_tempIdent2ident.Relation": {
+        "nextScheduledRun": "0",
+        "configuration": "enabled",
+        "JobDN": "CN=Relation,CN=eDir_tempIdent2ident,CN=driverset0,O=System",
+        "status": "stopped",
+        "containment": "DirXML-Driver"
+    },
+    "Monitor.IDM.job_stats.drivers.eDir_tempIdent2ident.initial_set_auxZZHRSUFU": {
+        "nextScheduledRun": "0",
+        "configuration": "enabled",
+        "JobDN": "CN=initial_set_auxZZHRSUFU,CN=eDir_tempIdent2ident,CN=driverset0,O=System",
+        "status": "stopped",
+        "containment": "DirXML-Driver"
+    },
+    "Monitor.IDM.jvm_stats.classloader_stats": {
+        "loaded_class_stats": "13463",
+        "unloaded_class_count": "84972",
+        "total_loaded_class_count": "98435"
+    },
+    "Monitor.IDM.jvm_stats.garbage_collection_stats.collectors.G1_Old_Generation": {
+        "collection_count": "812",
+        "collection_time": "67547 ms"
+    },
+    "Monitor.IDM.jvm_stats.garbage_collection_stats.collectors.G1_Young_Generation": {
+        "collection_count": "142",
+        "collection_time": "2235 ms"
+    },
+    "Monitor.IDM.jvm_stats.memory_stats.heap": {
+        "used": "1393.6 MB",
+        "initial": "8192.0 MB",
+        "comitted": "8192.0 MB",
+        "total": "16.000 GB"
+    },
+    "Monitor.IDM.jvm_stats.memory_stats.non_heap": {
+        "used": "197.80 MB",
+        "initial": "7488.0 KB",
+        "comitted": "237.27 MB",
+        "total": "-1.0000 Bytes"
+    },
+    "Monitor.IDM.jvm_stats.operating_system_stats": {
+        "name": "Linux",
+        "average_load": "0.10205078125",
+        "arch": "amd64",
+        "version": "6.4.0-150600.23.70-default",
+        "processors": "8"
+    },
+    "Monitor.IDM.jvm_stats.runtime_stats": {
+        "start_time": "1760594700",
+        "upTime": "35 days 7 hours 39 minutes 8 seconds 880 milliseconds"
+    },
+    "Monitor.IDM.jvm_stats.runtime_stats.system_properties": {
+        "java.protocol.handler.pkgs": "com.novell.nds.dirxml.engine.url",
+        "java.home": "/opt/novell/eDirectory/lib64/nds-modules/jre",
+        "java.version": "11.0.25",
+        "java.awt.printerjob": "sun.print.PSPrinterJob",
+        "java.runtime.name": "OpenJDK Runtime Environment",
+        "java.vm.specification.name": "Java Virtual Machine Specification",
+        "novell.jclient.libraryName": "jclnt",
+        "java.vm.specification.vendor": "Oracle Corporation",
+        "sun.os.patch.level": "unknown",
+        "java.class.path": "/opt/novell/eDirectory/lib64/nds-modules/jre/lib/javax.servlet-api-4.0.1.jar:/opt/novell/eDirectory/lib64/nds-modules/jre/lib/jrt-fs.jar:/opt/novell/eDirectory/lib64/../lib/dirxml/classes/google-api-services-groupssettings.jar:/opt/novell/eDirectory/lib64/../lib/dirxml/classes/NetIQ_CE_DelimText.jar:/opt/novell/eDirectory/lib64/../lib/dirxml/classes/jetty-security-11.0.19.jar:/opt/novell/eDirectory/lib64/../lib/dirxml/classes/zOS.jar:/opt/novell/eDirectory/lib64/../lib/dirxml/classes/xconfig.jar:/opt/novell/eDirectory/lib64/../lib/dirxml/classes/dirxml_remote.jar:/opt/novell/eDirectory/lib64/../lib/dirxml/classes/jakarta.ws.rs-api-3.1.0.jar:/opt/novell/eDirectory/lib64/../lib/dirxml/classes/nrfdriver.jar:/opt/novell/eDirectory/lib64/../lib/dirxml/classes/google-oauth-client.jar:/opt/novell/eDirectory/lib64/../lib/dirxml/classes/jsr305-1.3.9.jar:/opt/novell/eDirectory/lib64/../lib/dirxml/classes/MSGatewayCommon.jar:/opt/novell/eDirectory/lib64/../lib/dirxml/classes/google-http-client-gson.jar:/opt/novell/eDirectory/lib64/../lib/dirxml/classes/jackson-annotations-2.17.1.jar:/opt/novell/eDirectory/lib64/../lib/dirxml/classes/dirxml_monitor.jar:/opt/novell/eDirectory/lib64/../lib/dirxml/classes/IDMCEFProcessor.jar:/opt/novell/eDirectory/lib64/../lib/dirxml/classes/DelimitedTextShim.jar:/opt/novell/eDirectory/lib64/../lib/dirxml/classes/gdata-client-1.0.jar:/opt/novell/eDirectory/lib64/../lib/dirxml/classes/google-api-client-java6.jar:/opt/novell/eDirectory/lib64/../lib/dirxml/classes/xp-1.0.0.jar:/opt/novell/eDirectory/lib64/../lib/dirxml/classes/DelimitedTextUtil.jar:/opt/novell/eDirectory/lib64/../lib/dirxml/classes/json-smart-2.4.10.jar:/opt/novell/eDirectory/lib64/../lib/dirxml/classes/ksutil.jar:/opt/novell/eDirectory/lib64/../lib/dirxml/classes/jakarta.validation-api-3.0.2.jar:/opt/novell/eDirectory/lib64/../lib/dirxml/classes/JMSShim.jar:/opt/novell/eDirectory/lib64/../lib/dirxml/classes/ARSDriver75.jar:/opt/novell/eDirectory/lib64/../lib/dirxml/classes/init-idm-resources.jar:/opt/novell/eDirectory/lib64/../lib/dirxml/classes/jakarta.mail-2.0.1.jar:/opt/novell/eDirectory/lib64/../lib/dirxml/classes/slf4j-api-2.0.7.jar:/opt/novell/eDirectory/lib64/../lib/dirxml/classes/MSGatewayDriverShim.jar:/opt/novell/eDirectory/lib64/../lib/dirxml/classes/RESTDriverShim.jar:/opt/novell/eDirectory/lib64/../lib/dirxml/classes/jakarta.json-api-2.1.1.jar:/opt/novell/eDirectory/lib64/../lib/dirxml/classes/jclient.jar:/opt/novell/eDirectory/lib64/../lib/dirxml/classes/dirxml_misc.jar:/opt/novell/eDirectory/lib64/../lib/dirxml/classes/jersey-client-3.1.5.jar:/opt/novell/eDirectory/lib64/../lib/dirxml/classes/xpp3-1.1.6.jar:/opt/novell/eDirectory/lib64/../lib/dirxml/classes/imgscalr-lib-4.2.jar:/opt/novell/eDirectory/lib64/../lib/dirxml/classes/jackson-core-2.17.1.jar:/opt/novell/eDirectory/lib64/../lib/dirxml/classes/idmcp.jar:/opt/novell/eDirectory/lib64/../lib/dirxml/classes/IDMfw.jar:/opt/novell/eDirectory/lib64/../lib/dirxml/classes/RestLib.jar:/opt/novell/eDirectory/lib64/../lib/dirxml/classes/jetty-servlet-11.0.19.jar:/opt/novell/eDirectory/lib64/../lib/dirxml/classes/log4j-core-2.18.0.jar:/opt/novell/eDirectory/lib64/../lib/dirxml/classes/content-type-2.2.jar:/opt/novell/eDirectory/lib64/../lib/dirxml/classes/IDMrbac.jar:/opt/novell/eDirectory/lib64/../lib/dirxml/classes/jetty-io-11.0.19.jar:/opt/novell/eDirectory/lib64/../lib/dirxml/classes/EBSHRShim.jar:/opt/novell/eDirectory/lib64/../lib/dirxml/classes/json-simple-1.1.1.jar:/opt/novell/eDirectory/lib64/../lib/dirxml/classes/webservices-api-2.4.9.jar:/opt/novell/eDirectory/lib64/../lib/dirxml/classes/zoomdb.jar:/opt/novell/eDirectory/lib64/../lib/dirxml/classes/OData.jar:/opt/novell/eDirectory/lib64/../lib/dirxml/classes/ComposerDriverShim.jar:/opt/novell/eDirectory/lib64/../lib/dirxml/classes/jsso.jar:/opt/novell/eDirectory/lib64/../lib/dirxml/classes/webservices-rt-2.4.9.jar:/opt/novell/eDirectory/lib64/../lib/dirxml/classes/google-api-client.jar:/opt/novell/eDirectory/lib64/../lib/dirxml/classes/nulldriver.jar:/opt/novell/eDirectory/lib64/../lib/dirxml/classes/jakarta.json.bind-api-3.0.0.jar:/opt/novell/eDirectory/lib64/../lib/dirxml/classes/gmailshim.jar:/opt/novell/eDirectory/lib64/../lib/dirxml/classes/wss4j-1.6.19.jar:/opt/novell/eDirectory/lib64/../lib/dirxml/classes/psoftshim.jar:/opt/novell/eDirectory/lib64/../lib/dirxml/classes/srvprvUAD-4.10.0.jar:/opt/novell/eDirectory/lib64/../lib/dirxml/classes/jsso-prov.jar:/opt/novell/eDirectory/lib64/../lib/dirxml/classes/LDAPShim.jar:/opt/novell/eDirectory/lib64/../lib/dirxml/classes/schdrvjob.jar:/opt/novell/eDirectory/lib64/../lib/dirxml/classes/jersey-media-moxy-3.1.5.jar:/opt/novell/eDirectory/lib64/../lib/dirxml/classes/mapdb-3.0.9.jar:/opt/novell/eDirectory/lib64/../lib/dirxml/classes/jackson-core-asl-1.9.13.jar:/opt/novell/eDirectory/lib64/../lib/dirxml/classes/glassfish-corba-omgapi-4.2.5.jar:/opt/novell/eDirectory/lib64/../lib/dirxml/classes/js.jar:/opt/novell/eDirectory/lib64/../lib/dirxml/classes/EpicDriverShim.jar:/opt/novell/eDirectory/lib64/../lib/dirxml/classes/NdsToNds.jar:/opt/novell/eDirectory/lib64/../lib/dirxml/classes/slf4j-simple-2.0.7.jar:/opt/novell/eDirectory/lib64/../lib/dirxml/classes/EdirDriverShim.jar:/opt/novell/eDirectory/lib64/../lib/dirxml/classes/asm-tree-9.6.jar:/opt/novell/eDirectory/lib64/../lib/dirxml/classes/adutil.jar:/opt/novell/eDirectory/lib64/../lib/dirxml/classes/asm-commons-9.6.jar:/opt/novell/eDirectory/lib64/../lib/dirxml/classes/guava.jar:/opt/novell/eDirectory/lib64/../lib/dirxml/classes/google-api-services-oauth2.jar:/opt/novell/eDirectory/lib64/../lib/dirxml/classes/LDAPUtil.jar:/opt/novell/eDirectory/lib64/../lib/dirxml/classes/jersey-common-3.1.5.jar:/opt/novell/eDirectory/lib64/../lib/dirxml/classes/google-oauth-client-java6.jar:/opt/novell/eDirectory/lib64/../lib/dirxml/classes/dhutil.jar:/opt/novell/eDirectory/lib64/../lib/dirxml/classes/leveldbjni-all-1.8.jar:/opt/novell/eDirectory/lib64/../lib/dirxml/classes/dirxmlcomps.jar:/opt/novell/eDirectory/lib64/../lib/dirxml/classes/jersey-media-json-jettison-3.1.5.jar:/opt/novell/eDirectory/lib64/../lib/dirxml/classes/SAPPortalShim.jar:/opt/novell/eDirectory/lib64/../lib/dirxml/classes/sentinel-client-base.jar:/opt/novell/eDirectory/lib64/../lib/dirxml/classes/jakarta.activation-2.0.1.jar:/opt/novell/eDirectory/lib64/../lib/dirxml/classes/sungardbannershim.jar:/opt/novell/eDirectory/lib64/../lib/dirxml/classes/jersey-container-servlet-core-3.1.5.jar:/opt/novell/eDirectory/lib64/../lib/dirxml/classes/aalto-xml-1.3.2.jar:/opt/novell/eDirectory/lib64/../lib/dirxml/classes/shimwrapper.jar:/opt/novell/eDirectory/lib64/../lib/dirxml/classes/ManualTaskServiceShim.jar:/opt/novell/eDirectory/lib64/../lib/dirxml/classes/NotesDriverShim.jar:/opt/novell/eDirectory/lib64/../lib/dirxml/classes/lz4-java-1.8.0.jar:/opt/novell/eDirectory/lib64/../lib/dirxml/classes/gdata-appsforyourdomain-meta-1.0.jar:/opt/novell/eDirectory/lib64/../lib/dirxml/classes/JDBCUtil.jar:/opt/novell/eDirectory/lib64/../lib/dirxml/classes/gdata-client-meta-1.0.jar:/opt/novell/eDirectory/lib64/../lib/dirxml/classes/sentinel-crypto.jar:/opt/novell/eDirectory/lib64/../lib/dirxml/classes/nimbus-jose-jwt-9.41.2.jar:/opt/novell/eDirectory/lib64/../lib/dirxml/classes/jackson-jaxrs-json-provider-2.14.1.jar:/opt/novell/eDirectory/lib64/../lib/dirxml/classes/concurrentlinkedhashmap-lru-1.4.2.jar:/opt/novell/eDirectory/lib64/../lib/dirxml/classes/gdata-contacts-3.0.jar:/opt/novell/eDirectory/lib64/../lib/dirxml/classes/triggerjob.jar:/opt/novell/eDirectory/lib64/../lib/dirxml/classes/netiq-NQCEroles-487.jar:/opt/novell/eDirectory/lib64/../lib/dirxml/classes/jetty-server-11.0.19.jar:/opt/novell/eDirectory/lib64/../lib/dirxml/classes/google-api-services-gmail.jar:/opt/novell/eDirectory/lib64/../lib/dirxml/classes/npki.jar:/opt/novell/eDirectory/lib64/../lib/dirxml/classes/RESTCommon.jar:/opt/novell/eDirectory/lib64/../lib/dirxml/classes/gdata-contacts-meta-3.0.jar:/opt/novell/eDirectory/lib64/../lib/dirxml/classes/GWRestShim.jar:/opt/novell/eDirectory/lib64/../lib/dirxml/classes/jco3environment.jar:/opt/novell/eDirectory/lib64/../lib/dirxml/classes/jersey-server-3.1.5.jar:/opt/novell/eDirectory/lib64/../lib/dirxml/classes/WorkdayUtil.jar:/opt/novell/eDirectory/lib64/../lib/dirxml/classes/CommonDriverShim.jar:/opt/novell/eDirectory/lib64/../lib/dirxml/classes/jms.jar:/opt/novell/eDirectory/lib64/../lib/dirxml/classes/org.eclipse.persistence.moxy-4.0.2.jar:/opt/novell/eDirectory/lib64/../lib/dirxml/classes/JDBCShim.jar:/opt/novell/eDirectory/lib64/../lib/dirxml/classes/idprovider.jar:/opt/novell/eDirectory/lib64/../lib/dirxml/classes/google-api-services-admin-directory.jar:/opt/novell/eDirectory/lib64/../lib/dirxml/classes/jersey-entity-filtering-3.1.1.jar:/opt/novell/eDirectory/lib64/../lib/dirxml/classes/hk2-locator-3.0.5.jar:/opt/novell/eDirectory/lib64/../lib/dirxml/classes/stax2-api-4.2.1.jar:/opt/novell/eDirectory/lib64/../lib/dirxml/classes/ServicenowShim.jar:/opt/novell/eDirectory/lib64/../lib/dirxml/classes/eclipse-collections-forkjoin-11.1.0.jar:/opt/novell/eDirectory/lib64/../lib/dirxml/classes/SOAPShim.jar:/opt/novell/eDirectory/lib64/../lib/dirxml/classes/google-oauth-client-jetty.jar:/opt/novell/eDirectory/lib64/../lib/dirxml/classes/jakarta.inject-api-2.0.1.jar:/opt/novell/eDirectory/lib64/../lib/dirxml/classes/loopback.jar:/opt/novell/eDirectory/lib64/../lib/dirxml/classes/OpenTextLDAPInjection.jar:/opt/novell/eDirectory/lib64/../lib/dirxml/classes/nxsl.jar:/opt/novell/eDirectory/lib64/../lib/dirxml/classes/commons-lang3-3.12.0.jar:/opt/novell/eDirectory/lib64/../lib/dirxml/classes/afadmin.jar:/opt/novell/eDirectory/lib64/../lib/dirxml/classes/SalesforceShim.jar:/opt/novell/eDirectory/lib64/../lib/dirxml/classes/eclipse-collections-11.1.0.jar:/opt/novell/eDirectory/lib64/../lib/dirxml/classes/pwdexpjob.jar:/opt/novell/eDirectory/lib64/../lib/dirxml/classes/IGDriverShim.jar:/opt/novell/eDirectory/lib64/../lib/dirxml/classes/commons-logging-1.2.2.1.jar:/opt/novell/eDirectory/lib64/../lib/dirxml/classes/google-http-client-jackson2.jar:/opt/novell/eDirectory/lib64/../lib/dirxml/classes/jaxb-api-2.3.1.jar:/opt/novell/eDirectory/lib64/../lib/dirxml/classes/xcd-all-4.9.0.jar:/opt/novell/eDirectory/lib64/../lib/dirxml/classes/NetIQ_CE_WorkflowStarter.jar:/opt/novell/eDirectory/lib64/../lib/dirxml/classes/jakarta.servlet-api-5.0.0.jar:/opt/novell/eDirectory/lib64/../lib/dirxml/classes/jntls.jar:/opt/novell/eDirectory/lib64/../lib/dirxml/classes/guava-33.3.0-jre.jar:/opt/novell/eDirectory/lib64/../lib/dirxml/classes/statistics.jar:/opt/novell/eDirectory/lib64/../lib/dirxml/classes/Opentext_CE_EASY_JSON.jar:/opt/novell/eDirectory/lib64/../lib/dirxml/classes/jackson-jaxrs-base-2.14.1.jar:/opt/novell/eDirectory/lib64/../lib/dirxml/classes/jackson-module-jaxb-annotations-2.17.1.jar:/opt/novell/eDirectory/lib64/../lib/dirxml/classes/OpenText_CS_EnDecrypt.jar:/opt/novell/eDirectory/lib64/../lib/dirxml/classes/ManualTaskServiceBase.jar:/opt/novell/eDirectory/lib64/../lib/dirxml/classes/gdata-appsforyourdomain-1.0.jar:/opt/novell/eDirectory/lib64/../lib/dirxml/classes/org.eclipse.persistence.asm-9.6.0.jar:/opt/novell/eDirectory/lib64/../lib/dirxml/classes/jakarta.xml.bind-api-4.0.1.jar:/opt/novell/eDirectory/lib64/../lib/dirxml/classes/asm-9.6.jar:/opt/novell/eDirectory/lib64/../lib/dirxml/classes/WorkdayShim.jar:/opt/novell/eDirectory/lib64/../lib/dirxml/classes/NPUMDriverShim.jar:/opt/novell/eDirectory/lib64/../lib/dirxml/classes/XDS.jar:/opt/novell/eDirectory/lib64/../lib/dirxml/classes/NxSettings.jar:/opt/novell/eDirectory/lib64/../lib/dirxml/classes/dirxml.jar:/opt/novell/eDirectory/lib64/../lib/dirxml/classes/gdata-base-1.0.jar:/opt/novell/eDirectory/lib64/../lib/dirxml/classes/jcce-1.5.7.jar:/opt/novell/eDirectory/lib64/../lib/dirxml/classes/EntitlementServiceShim.jar:/opt/novell/eDirectory/lib64/../lib/dirxml/classes/jackson-databind-2.17.1.jar:/opt/novell/eDirectory/lib64/../lib/dirxml/classes/javax.servlet-api-4.0.1.jar:/opt/novell/eDirectory/lib64/../lib/dirxml/classes/httpclient-4.5.14.jar:/opt/novell/eDirectory/lib64/../lib/dirxml/classes/commons-logging-1.1.1.jar:/opt/novell/eDirectory/lib64/../lib/dirxml/classes/parsson-1.1.7.jar:/opt/novell/eDirectory/lib64/../lib/dirxml/classes/jetty-webapp-11.0.19.jar:/opt/novell/eDirectory/lib64/../lib/dirxml/classes/oauth2-oidc-sdk-9.39.jar:/opt/novell/eDirectory/lib64/../lib/dirxml/classes/org.eclipse.persistence.core-4.0.2.jar:/opt/novell/eDirectory/lib64/../lib/dirxml/classes/sentinel-client-base-java.jar:/opt/novell/eDirectory/lib64/../lib/dirxml/classes/SAPBLShim.jar:/opt/novell/eDirectory/lib64/../lib/dirxml/classes/jsso-cmd.jar:/opt/novell/eDirectory/lib64/../lib/dirxml/classes/xercesImpl.jar:/opt/novell/eDirectory/lib64/../lib/dirxml/classes/hk2-api-3.0.5.jar:/opt/novell/eDirectory/lib64/../lib/dirxml/classes/FanoutDriverShim.jar:/opt/novell/eDirectory/lib64/../lib/dirxml/classes/JDBCConfig.jar:/opt/novell/eDirectory/lib64/../lib/dirxml/classes/opencsv-5.7.1.jar:/opt/novell/eDirectory/lib64/../lib/dirxml/classes/EBSShim.jar:/opt/novell/eDirectory/lib64/../lib/dirxml/classes/jetty-xml-11.0.19.jar:/opt/novell/eDirectory/lib64/../lib/dirxml/classes/SCIMShim.jar:/opt/novell/eDirectory/lib64/../lib/dirxml/classes/jcce-oauth-1.3.0.jar:/opt/novell/eDirectory/lib64/../lib/dirxml/classes/sapumshim.jar:/opt/novell/eDirectory/lib64/../lib/dirxml/classes/activemq-all-5.18.4.jar:/opt/novell/eDirectory/lib64/../lib/dirxml/classes/httpcore-4.4.16.jar:/opt/novell/eDirectory/lib64/../lib/dirxml/classes/kotlin-stdlib-1.7.0.jar:/opt/novell/eDirectory/lib64/../lib/dirxml/classes/jnet.jar:/opt/novell/eDirectory/lib64/../lib/dirxml/classes/SOAPUtil.jar:/opt/novell/eDirectory/lib64/../lib/dirxml/classes/javax.activation-1.2.0.jar:/opt/novell/eDirectory/lib64/../lib/dirxml/classes/wssdk-4.9.0.0000.jar:/opt/novell/eDirectory/lib64/../lib/dirxml/classes/log4j-api-2.18.0.jar:/opt/novell/eDirectory/lib64/../lib/dirxml/classes/saphanashim.jar:/opt/novell/eDirectory/lib64/../lib/dirxml/classes/audit-driver.jar:/opt/novell/eDirectory/lib64/../lib/dirxml/classes/jaxrpc-api-1.1.jar:/opt/novell/eDirectory/lib64/../lib/dirxml/classes/jettison-1.5.4.jar:/opt/novell/eDirectory/lib64/../lib/dirxml/classes/lucene-core-8.11.2.jar:/opt/novell/eDirectory/lib64/../lib/dirxml/classes/javax.xml.soap-api-1.4.0.jar:/opt/novell/eDirectory/lib64/../lib/dirxml/classes/ldap.jar:/opt/novell/eDirectory/lib64/../lib/dirxml/classes/passgenjob.jar:/opt/novell/eDirectory/lib64/../lib/dirxml/classes/eclipse-collections-api-11.1.0.jar:/opt/novell/eDirectory/lib64/../lib/dirxml/classes/msal4j-1.14.0.jar:/opt/novell/eDirectory/lib64/../lib/dirxml/classes/Microfocus_CE_DirectExceution.jar:/opt/novell/eDirectory/lib64/../lib/dirxml/classes/gson.jar:/opt/novell/eDirectory/lib64/../lib/dirxml/classes/commons-io-2.17.0.jar:/opt/novell/eDirectory/lib64/../lib/dirxml/classes/SentinelRESTShim.jar:/opt/novell/eDirectory/lib64/../lib/dirxml/classes/elsa-3.0.0-M5.jar:/opt/novell/eDirectory/lib64/../lib/dirxml/classes/jetty-util-11.0.19.jar:/opt/novell/eDirectory/lib64/../lib/dirxml/classes/WorkOrder.jar:/opt/novell/eDirectory/lib64/../lib/dirxml/classes/SCIMUtils.jar:/opt/novell/eDirectory/lib64/../lib/dirxml/classes/RESTUtil.jar:/opt/novell/eDirectory/lib64/../lib/dirxml/classes/Smc.jar:/opt/novell/eDirectory/lib64/../lib/dirxml/classes/ckdrvhealthjob.jar:/opt/novell/eDirectory/lib64/../lib/dirxml/classes/jackson-dataformat-xml-2.14.1.jar:/opt/novell/eDirectory/lib64/../lib/dirxml/classes/novlact.jar:/opt/novell/eDirectory/lib64/../lib/dirxml/classes/AZDriverShim.jar:/opt/novell/eDirectory/lib64/../lib/dirxml/classes/EBSUserShim.jar:/opt/novell/eDirectory/lib64/../lib/dirxml/classes/dcsshim.jar:/opt/novell/eDirectory/lib64/../lib/dirxml/classes/xmlsec-4.0.2.jar:/opt/novell/eDirectory/lib64/../lib/dirxml/classes/common-2.49.jar:/opt/novell/eDirectory/lib64/../lib/dirxml/classes/bcprov-jdk15on-1.70.jar:/opt/novell/eDirectory/lib64/../lib/dirxml/classes/NPUM_api.jar:/opt/novell/eDirectory/lib64/../lib/dirxml/classes/istack-commons-runtime-4.2.0.jar:/opt/novell/eDirectory/lib64/../lib/dirxml/classes/sentinel-client-beans.jar:/opt/novell/eDirectory/lib64/../lib/dirxml/classes/hk2-utils-3.0.5.jar:/opt/novell/eDirectory/lib64/../lib/dirxml/classes/jersey-hk2-3.1.5.jar:/opt/novell/eDirectory/lib64/../lib/dirxml/classes/arshim.jar:/opt/novell/eDirectory/lib64/../lib/dirxml/classes/SAPHRShim.jar:/opt/novell/eDirectory/lib64/../lib/dirxml/classes/saaj-api-1.3.5.jar:/opt/novell/eDirectory/lib64/../lib/dirxml/classes/EBSTCAShim.jar:/opt/novell/eDirectory/lib64/../lib/dirxml/classes/jetty-http-11.0.19.jar:/opt/novell/eDirectory/lib64/../lib/dirxml/classes/google-http-client.jar:/opt/novell/eDirectory/lib64/../lib/dirxml/classes/gdata-core-1.0.jar:/opt/novell/eDirectory/lib64/../lib/dirxml/classes/jakarta.annotation-api-2.1.1.jar:/opt/novell/eDirectory/lib64/../lib/dirxml/classes/httpmime-4.5.13.jar:/opt/novell/eDirectory/lib64/../lib/dirxml/classes/commons-codec-1.15.jar:/opt/novell/eDirectory/lib64/../lib/dirxml/classes",
+        "org.apache.commons.logging.simplelog.defaultlog": "fatal",
+        "line.separator": "\n",
+        "java.specification.vendor": "Oracle Corporation",
+        "sun.boot.library.path": "/opt/netiq/common/jre/lib",
+        "java.io.tmpdir": "/tmp",
+        "java.vm.vendor": "Azul Systems, Inc.",
+        "path.separator": ":",
+        "os.arch": "amd64",
+        "java.runtime.version": "11.0.25+9-LTS",
+        "java.specification.maintenance.version": "3",
+        "javax.xml.soap.MessageFactory": "com.novell.soa.ws.impl.saaj.soap.MessageFactoryImpl",
+        "sun.management.compiler": "HotSpot 64-Bit Tiered Compilers",
+        "log4j.logger.org.apache.commons.httpclient": "fatal",
+        "java.vendor": "Azul Systems, Inc.",
+        "file.separator": "/",
+        "java.vm.version": "11.0.25+9-LTS",
+        "java.awt.graphicsenv": "sun.awt.X11GraphicsEnvironment",
+        "javax.net.ssl.trustStore": "/opt/novell/eDirectory/lib64/nds-modules/jre/lib/security/cacerts",
+        "java.specification.name": "Java Platform API Specification",
+        "jdk.debug": "release",
+        "java.library.path": "/opt/novell/eDirectory/lib64/nds-modules/jre:/opt/novell/eDirectory/lib64/nds-modules/jre/lib/server/native_threads:/opt/novell/eDirectory/lib64/nds-modules/jre/lib/server:/opt/novell/eDirectory/eDir-exclusive/lib64://opt/novell/eDirectory/lib64/nds-modules/jre/lib/server://opt/novell/eDirectory/lib64/nds-modules/jre/lib/native_threads::$LD_LIBRARY_PATH:/opt/novell/eDirectory/lib64/apr:/opt/novell/eDirectory/lib64:/opt/novell/eDirectory/../lib64:/opt/novell/eDirectory/lib64/nds-modules:$LD_LIBRARY_PATH:/usr/java/packages/lib:/usr/lib64:/lib64:/lib:/usr/lib",
+        "sun.io.unicode.encoding": "UnicodeLittle",
+        "user.country": "US",
+        "sun.jnu.encoding": "UTF-8",
+        "os.version": "6.4.0-150600.23.70-default",
+        "java.vendor.version": "Zulu11.76+21-CA",
+        "mail.smtp.host": "fr05435vmx.fr.ge.conti.de",
+        "java.vm.specification.version": "11",
+        "user.home": "/root",
+        "java.vm.compressedOopsMode": "Zero based",
+        "java.specification.version": "11",
+        "javax.xml.soap.SOAPFactory": "com.novell.soa.ws.impl.saaj.soap.SOAPFactoryImpl",
+        "com.novell.xml.dom.check-names": "false",
+        "sun.arch.data.model": "64",
+        "java.class.version": "55.0",
+        "org.apache.commons.logging.Log": "org.apache.commons.logging.impl.SimpleLog",
+        "java.version.date": "2024-10-15",
+        "java.vm.name": "OpenJDK 64-Bit Server VM",
+        "user.name": "root",
+        "javax.xml.soap.SOAPConnectionFactory": "com.novell.soa.ws.impl.saaj.soap.SOAPConnectionFactoryImpl",
+        "user.language": "en",
+        "java.vm.info": "mixed mode",
+        "file.encoding": "UTF-8",
+        "sun.cpu.endian": "little",
+        "user.dir": "/var/opt/novell/eDirectory/data/dib",
+        "jetty.git.hash": "f781e475c8fa9e9c8ce18b1eaa03110d510f905f",
+        "user.timezone": "Europe/Berlin",
+        "jdk.vendor.version": "Zulu11.76+21-CA",
+        "mail.smtp.auth": "false",
+        "awt.toolkit": "sun.awt.X11.XToolkit",
+        "java.vendor.url.bug": "http://www.azul.com/support/",
+        "os.name": "Linux",
+        "java.vendor.url": "http://www.azul.com/"
+    },
+    "Monitor.IDM.jvm_stats.thread_stats": {
+        "daemon_count": "12",
+        "peak_count": "161",
+        "current_count": "148",
+        "total_shared_count": "260753"
+    },
+    "Monitor.IDM.jvm_stats.thread_stats.thread_info.Common-Cleaner": {
+        "lock": "java.lang.ref.ReferenceQueue$Lock@166f1f91",
+        "id": "11",
+        "wait_time": "-1 ms",
+        "state": "TIMED_WAITING"
+    },
+    "Monitor.IDM.jvm_stats.thread_stats.thread_info.Connector-Scheduler-3ba11e2c-1": {
+        "lock": "java.util.concurrent.locks.AbstractQueuedSynchronizer$ConditionObject@35762710",
+        "id": "139",
+        "wait_time": "-1 ms",
+        "state": "WAITING"
+    },
+    "Monitor.IDM.jvm_stats.thread_stats.thread_info.DirXML_Job_Scheduler": {
+        "lock": "java.lang.Object@2ffe4aad",
+        "id": "17",
+        "wait_time": "-1 ms",
+        "state": "TIMED_WAITING"
+    },
+    "Monitor.IDM.jvm_stats.thread_stats.thread_info.DirXML": {
+        "id": "12",
+        "wait_time": "-1 ms",
+        "state": "RUNNABLE"
+    },
+    "Monitor.IDM.jvm_stats.thread_stats.thread_info.Finalizer": {
+        "lock": "java.lang.ref.ReferenceQueue$Lock@4bdd080b",
+        "id": "3",
+        "wait_time": "-1 ms",
+        "state": "WAITING"
+    },
+    "Monitor.IDM.jvm_stats.thread_stats.thread_info.RMI_GC_Daemon": {
+        "lock": "sun.rmi.transport.GC$LatencyLock@716c6138",
+        "id": "59",
+        "wait_time": "-1 ms",
+        "state": "TIMED_WAITING"
+    },
+    "Monitor.IDM.jvm_stats.thread_stats.thread_info.RMI_Reaper": {
+        "lock": "java.lang.ref.ReferenceQueue$Lock@75cb77a0",
+        "id": "240212",
+        "wait_time": "-1 ms",
+        "state": "WAITING"
+    },
+    "Monitor.IDM.jvm_stats.thread_stats.thread_info.RMI_RenewClean-[10.124.80.112.com.novell.idm.idprovider.IDProviderClientSocketFactory@502d6f7f].45907": {
+        "lock": "java.lang.ref.ReferenceQueue$Lock@72873875",
+        "id": "240213",
+        "wait_time": "-1 ms",
+        "state": "TIMED_WAITING"
+    },
+    "Monitor.IDM.jvm_stats.thread_stats.thread_info.RMI_Scheduler(0)": {
+        "lock": "java.util.concurrent.locks.AbstractQueuedSynchronizer$ConditionObject@3da6acce",
+        "id": "61",
+        "wait_time": "-1 ms",
+        "state": "TIMED_WAITING"
+    },
+    "Monitor.IDM.jvm_stats.thread_stats.thread_info.RMI_TCP_Accept-0": {
+        "id": "240211",
+        "wait_time": "-1 ms",
+        "state": "RUNNABLE"
+    },
+    "Monitor.IDM.jvm_stats.thread_stats.thread_info.RMI_TCP_Accept-1099": {
+        "id": "240210",
+        "wait_time": "-1 ms",
+        "state": "RUNNABLE"
+    },
+    "Monitor.IDM.jvm_stats.thread_stats.thread_info.Reference_Handler": {
+        "id": "2",
+        "wait_time": "-1 ms",
+        "state": "RUNNABLE"
+    },
+    "Monitor.IDM.jvm_stats.thread_stats.thread_info.Role_Resource_Driver_cleanup_thread": {
+        "lock": "com.novell.nds.dirxml.driver.nrf.NRFTimer@5c417765",
+        "id": "107",
+        "wait_time": "-1 ms",
+        "state": "TIMED_WAITING"
+    },
+    "Monitor.IDM.jvm_stats.thread_stats.thread_info.Role_Resource_Driver_dynamic_group_processing": {
+        "lock": "com.novell.nds.dirxml.driver.nrf.NRFDynGroupUpdater@433e1421",
+        "id": "109",
+        "wait_time": "-1 ms",
+        "state": "TIMED_WAITING"
+    },
+    "Monitor.IDM.jvm_stats.thread_stats.thread_info.Role_Resource_Driver_resource_cleanup_thread": {
+        "lock": "com.novell.nds.dirxml.driver.nrf.NRFResourceTimer@1f114539",
+        "id": "108",
+        "wait_time": "-1 ms",
+        "state": "TIMED_WAITING"
+    },
+    "Monitor.IDM.jvm_stats.thread_stats.thread_info.Signal_Dispatcher": {
+        "id": "4",
+        "wait_time": "-1 ms",
+        "state": "RUNNABLE"
+    },
+    "Monitor.IDM.jvm_stats.thread_stats.thread_info.SocketTimeout": {
+        "id": "592",
+        "wait_time": "-1 ms",
+        "state": "TIMED_WAITING"
+    },
+    "Monitor.IDM.jvm_stats.thread_stats.thread_info.Thread-102703": {
+        "lock": "java.lang.Object@4dfe93cb",
+        "id": "260754",
+        "wait_time": "-1 ms",
+        "state": "WAITING"
+    },
+    "Monitor.IDM.jvm_stats.thread_stats.thread_info.Thread-102706": {
+        "lock": "java.lang.Object@4dfe93cb",
+        "id": "260757",
+        "wait_time": "-1 ms",
+        "state": "WAITING"
+    },
+    "Monitor.IDM.jvm_stats.thread_stats.thread_info.Thread-10": {
+        "lock": "java.lang.Object@58c832b7",
+        "id": "42",
+        "wait_time": "-1 ms",
+        "state": "TIMED_WAITING"
+    },
+    "Monitor.IDM.jvm_stats.thread_stats.thread_info.Thread-11": {
+        "lock": "java.lang.Object@64a5be67",
+        "id": "45",
+        "wait_time": "-1 ms",
+        "state": "TIMED_WAITING"
+    },
+    "Monitor.IDM.jvm_stats.thread_stats.thread_info.Thread-12": {
+        "id": "50",
+        "wait_time": "-1 ms",
+        "state": "TIMED_WAITING"
+    },
+    "Monitor.IDM.jvm_stats.thread_stats.thread_info.Thread-16": {
+        "id": "67",
+        "wait_time": "-1 ms",
+        "state": "TIMED_WAITING"
+    },
+    "Monitor.IDM.jvm_stats.thread_stats.thread_info.Thread-1": {
+        "id": "14",
+        "wait_time": "-1 ms",
+        "state": "RUNNABLE"
+    },
+    "Monitor.IDM.jvm_stats.thread_stats.thread_info.Thread-22612": {
+        "id": "55125",
+        "wait_time": "-1 ms",
+        "state": "RUNNABLE"
+    },
+    "Monitor.IDM.jvm_stats.thread_stats.thread_info.Thread-25": {
+        "lock": "java.lang.Object@55fc4154",
+        "id": "79",
+        "wait_time": "-1 ms",
+        "state": "TIMED_WAITING"
+    },
+    "Monitor.IDM.jvm_stats.thread_stats.thread_info.Thread-26": {
+        "lock": "java.lang.Object@6ec916bb",
+        "id": "82",
+        "wait_time": "-1 ms",
+        "state": "TIMED_WAITING"
+    },
+    "Monitor.IDM.jvm_stats.thread_stats.thread_info.Thread-27": {
+        "lock": "java.lang.Object@6c8741a9",
+        "id": "89",
+        "wait_time": "-1 ms",
+        "state": "TIMED_WAITING"
+    },
+    "Monitor.IDM.jvm_stats.thread_stats.thread_info.Thread-28": {
+        "id": "91",
+        "wait_time": "-1 ms",
+        "state": "TIMED_WAITING"
+    },
+    "Monitor.IDM.jvm_stats.thread_stats.thread_info.Thread-29": {
+        "lock": "java.lang.Object@7fb3fe10",
+        "id": "95",
+        "wait_time": "-1 ms",
+        "state": "TIMED_WAITING"
+    },
+    "Monitor.IDM.jvm_stats.thread_stats.thread_info.Thread-2": {
+        "id": "15",
+        "wait_time": "-1 ms",
+        "state": "RUNNABLE"
+    },
+    "Monitor.IDM.jvm_stats.thread_stats.thread_info.Thread-40": {
+        "lock": "java.lang.Object@6a433ec1",
+        "id": "114",
+        "wait_time": "-1 ms",
+        "state": "TIMED_WAITING"
+    },
+    "Monitor.IDM.jvm_stats.thread_stats.thread_info.Thread-41": {
+        "id": "118",
+        "wait_time": "-1 ms",
+        "state": "TIMED_WAITING"
+    },
+    "Monitor.IDM.jvm_stats.thread_stats.thread_info.Thread-42": {
+        "lock": "java.lang.Object@5c62a3b9",
+        "id": "123",
+        "wait_time": "-1 ms",
+        "state": "TIMED_WAITING"
+    },
+    "Monitor.IDM.jvm_stats.thread_stats.thread_info.Thread-43": {
+        "lock": "java.lang.Object@7c73d8dc",
+        "id": "126",
+        "wait_time": "-1 ms",
+        "state": "TIMED_WAITING"
+    },
+    "Monitor.IDM.jvm_stats.thread_stats.thread_info.Thread-66951": {
+        "id": "165710",
+        "wait_time": "-1 ms",
+        "state": "RUNNABLE"
+    },
+    "Monitor.IDM.jvm_stats.thread_stats.thread_info.Thread-6": {
+        "lock": "java.lang.Object@4e265704",
+        "id": "24",
+        "wait_time": "-1 ms",
+        "state": "TIMED_WAITING"
+    },
+    "Monitor.IDM.jvm_stats.thread_stats.thread_info.Thread-7584": {
+        "id": "16201",
+        "wait_time": "-1 ms",
+        "state": "RUNNABLE"
+    },
+    "Monitor.IDM.jvm_stats.thread_stats.thread_info.Thread-7585": {
+        "id": "16204",
+        "wait_time": "-1 ms",
+        "state": "RUNNABLE"
+    },
+    "Monitor.IDM.jvm_stats.thread_stats.thread_info.Thread-7586": {
+        "id": "16208",
+        "wait_time": "-1 ms",
+        "state": "RUNNABLE"
+    },
+    "Monitor.IDM.jvm_stats.thread_stats.thread_info.Thread-7587": {
+        "id": "16211",
+        "wait_time": "-1 ms",
+        "state": "RUNNABLE"
+    },
+    "Monitor.IDM.jvm_stats.thread_stats.thread_info.Thread-7595": {
+        "id": "16221",
+        "wait_time": "-1 ms",
+        "state": "RUNNABLE"
+    },
+    "Monitor.IDM.jvm_stats.thread_stats.thread_info.Thread-7596": {
+        "id": "16227",
+        "wait_time": "-1 ms",
+        "state": "RUNNABLE"
+    },
+    "Monitor.IDM.jvm_stats.thread_stats.thread_info.Thread-7597": {
+        "id": "16230",
+        "wait_time": "-1 ms",
+        "state": "RUNNABLE"
+    },
+    "Monitor.IDM.jvm_stats.thread_stats.thread_info.Thread-7598": {
+        "id": "16236",
+        "wait_time": "-1 ms",
+        "state": "RUNNABLE"
+    },
+    "Monitor.IDM.jvm_stats.thread_stats.thread_info.Thread-7599": {
+        "id": "16239",
+        "wait_time": "-1 ms",
+        "state": "RUNNABLE"
+    },
+    "Monitor.IDM.jvm_stats.thread_stats.thread_info.Thread-7600": {
+        "id": "16245",
+        "wait_time": "-1 ms",
+        "state": "RUNNABLE"
+    },
+    "Monitor.IDM.jvm_stats.thread_stats.thread_info.Thread-7601": {
+        "id": "16248",
+        "wait_time": "-1 ms",
+        "state": "RUNNABLE"
+    },
+    "Monitor.IDM.jvm_stats.thread_stats.thread_info.Thread-7602": {
+        "id": "16252",
+        "wait_time": "-1 ms",
+        "state": "RUNNABLE"
+    },
+    "Monitor.IDM.jvm_stats.thread_stats.thread_info.Thread-7610": {
+        "id": "16265",
+        "wait_time": "-1 ms",
+        "state": "RUNNABLE"
+    },
+    "Monitor.IDM.jvm_stats.thread_stats.thread_info.Thread-7611": {
+        "id": "16276",
+        "wait_time": "-1 ms",
+        "state": "RUNNABLE"
+    },
+    "Monitor.IDM.jvm_stats.thread_stats.thread_info.Thread-7612": {
+        "lock": "java.util.concurrent.FutureTask@61b424e9",
+        "id": "16279",
+        "wait_time": "-1 ms",
+        "state": "WAITING"
+    },
+    "Monitor.IDM.jvm_stats.thread_stats.thread_info.Thread-7627": {
+        "id": "16317",
+        "wait_time": "-1 ms",
+        "state": "RUNNABLE"
+    },
+    "Monitor.IDM.jvm_stats.thread_stats.thread_info.Thread-7632": {
+        "id": "16328",
+        "wait_time": "-1 ms",
+        "state": "RUNNABLE"
+    },
+    "Monitor.IDM.jvm_stats.thread_stats.thread_info.Thread-7633": {
+        "id": "16336",
+        "wait_time": "-1 ms",
+        "state": "RUNNABLE"
+    },
+    "Monitor.IDM.jvm_stats.thread_stats.thread_info.Thread-7634": {
+        "id": "16342",
+        "wait_time": "-1 ms",
+        "state": "RUNNABLE"
+    },
+    "Monitor.IDM.jvm_stats.thread_stats.thread_info.Thread-7635": {
+        "id": "16345",
+        "wait_time": "-1 ms",
+        "state": "RUNNABLE"
+    },
+    "Monitor.IDM.jvm_stats.thread_stats.thread_info.Thread-7656": {
+        "id": "16402",
+        "wait_time": "-1 ms",
+        "state": "RUNNABLE"
+    },
+    "Monitor.IDM.jvm_stats.thread_stats.thread_info.Thread-7657": {
+        "id": "16419",
+        "wait_time": "-1 ms",
+        "state": "RUNNABLE"
+    },
+    "Monitor.IDM.jvm_stats.thread_stats.thread_info.Thread-7658": {
+        "id": "16425",
+        "wait_time": "-1 ms",
+        "state": "RUNNABLE"
+    },
+    "Monitor.IDM.jvm_stats.thread_stats.thread_info.Thread-7746": {
+        "id": "16759",
+        "wait_time": "-1 ms",
+        "state": "RUNNABLE"
+    },
+    "Monitor.IDM.jvm_stats.thread_stats.thread_info.Thread-7": {
+        "lock": "java.lang.Object@3b76a69f",
+        "id": "27",
+        "wait_time": "-1 ms",
+        "state": "TIMED_WAITING"
+    },
+    "Monitor.IDM.jvm_stats.thread_stats.thread_info.Thread-85079": {
+        "id": "210527",
+        "wait_time": "-1 ms",
+        "state": "RUNNABLE"
+    },
+    "Monitor.IDM.jvm_stats.thread_stats.thread_info.Thread-89179": {
+        "id": "214707",
+        "wait_time": "-1 ms",
+        "state": "RUNNABLE"
+    },
+    "Monitor.IDM.jvm_stats.thread_stats.thread_info.Thread-89222": {
+        "id": "214905",
+        "wait_time": "-1 ms",
+        "state": "RUNNABLE"
+    },
+    "Monitor.IDM.jvm_stats.thread_stats.thread_info.Thread-8": {
+        "id": "32",
+        "wait_time": "-1 ms",
+        "state": "TIMED_WAITING"
+    },
+    "Monitor.IDM.jvm_stats.thread_stats.thread_info.Thread-98016": {
+        "id": "240208",
+        "wait_time": "-1 ms",
+        "state": "RUNNABLE"
+    },
+    "Monitor.IDM.jvm_stats.thread_stats.thread_info.Thread-98017": {
+        "lock": "java.lang.Object@14cbb04c",
+        "id": "240215",
+        "wait_time": "-1 ms",
+        "state": "TIMED_WAITING"
+    },
+    "Monitor.IDM.jvm_stats.thread_stats.thread_info.Thread-98519": {
+        "id": "242909",
+        "wait_time": "-1 ms",
+        "state": "RUNNABLE"
+    },
+    "Monitor.IDM.jvm_stats.thread_stats.thread_info.Thread-99684": {
+        "id": "246018",
+        "wait_time": "-1 ms",
+        "state": "RUNNABLE"
+    },
+    "Monitor.IDM.jvm_stats.thread_stats.thread_info.Thread-9": {
+        "id": "39",
+        "wait_time": "-1 ms",
+        "state": "TIMED_WAITING"
+    },
+    "Monitor.IDM.jvm_stats.thread_stats.thread_info.Timer-14": {
+        "lock": "java.util.TaskQueue@3e972d7a",
+        "id": "591",
+        "wait_time": "-1 ms",
+        "state": "WAITING"
+    },
+    "Monitor.IDM.jvm_stats.thread_stats.thread_info.Timer-6344": {
+        "lock": "java.util.TaskQueue@6f73d6af",
+        "id": "260753",
+        "wait_time": "-1 ms",
+        "state": "TIMED_WAITING"
+    },
+    "Monitor.IDM.jvm_stats.thread_stats.thread_info.\\IAM-BP-Q\\System\\driverset0\\ACDI_-_Publisher": {
+        "lock": "java.lang.Object@526b8590",
+        "id": "30",
+        "wait_time": "-1 ms",
+        "state": "TIMED_WAITING"
+    },
+    "Monitor.IDM.jvm_stats.thread_stats.thread_info.\\IAM-BP-Q\\System\\driverset0\\ACDI": {
+        "id": "28",
+        "wait_time": "-1 ms",
+        "state": "TIMED_WAITING"
+    },
+    "Monitor.IDM.jvm_stats.thread_stats.thread_info.\\IAM-BP-Q\\System\\driverset0\\AD_Location_Driver_-_Publisher": {
+        "id": "33",
+        "wait_time": "-1 ms",
+        "state": "TIMED_WAITING"
+    },
+    "Monitor.IDM.jvm_stats.thread_stats.thread_info.\\IAM-BP-Q\\System\\driverset0\\AD_Location_Driver": {
+        "id": "31",
+        "wait_time": "-1 ms",
+        "state": "TIMED_WAITING"
+    },
+    "Monitor.IDM.jvm_stats.thread_stats.thread_info.\\IAM-BP-Q\\System\\driverset0\\AD2SAPSSO_-_Publisher": {
+        "lock": "com.novell.nds.dirxml.driver.ThreadBridge@6d702c9",
+        "id": "35",
+        "wait_time": "-1 ms",
+        "state": "WAITING"
+    },
+    "Monitor.IDM.jvm_stats.thread_stats.thread_info.\\IAM-BP-Q\\System\\driverset0\\AD2SAPSSO": {
+        "id": "34",
+        "wait_time": "-1 ms",
+        "state": "TIMED_WAITING"
+    },
+    "Monitor.IDM.jvm_stats.thread_stats.thread_info.\\IAM-BP-Q\\System\\driverset0\\Account_Affiliation_Handler_-_Publisher": {
+        "lock": "com.novell.nds.dirxml.driver.ThreadBridge@4c32f75c",
+        "id": "259432",
+        "wait_time": "-1 ms",
+        "state": "WAITING"
+    },
+    "Monitor.IDM.jvm_stats.thread_stats.thread_info.\\IAM-BP-Q\\System\\driverset0\\Account_Affiliation_Handler": {
+        "id": "259431",
+        "wait_time": "-1 ms",
+        "state": "TIMED_WAITING"
+    },
+    "Monitor.IDM.jvm_stats.thread_stats.thread_info.\\IAM-BP-Q\\System\\driverset0\\Account_Password_Driver_-_Publisher": {
+        "lock": "com.novell.nds.dirxml.driver.ThreadBridge@205b4709",
+        "id": "23",
+        "wait_time": "-1 ms",
+        "state": "WAITING"
+    },
+    "Monitor.IDM.jvm_stats.thread_stats.thread_info.\\IAM-BP-Q\\System\\driverset0\\Account_Password_Driver": {
+        "id": "22",
+        "wait_time": "-1 ms",
+        "state": "TIMED_WAITING"
+    },
+    "Monitor.IDM.jvm_stats.thread_stats.thread_info.\\IAM-BP-Q\\System\\driverset0\\Account_Sync_Driver_-_Publisher": {
+        "lock": "com.novell.nds.dirxml.driver.ThreadBridge@416fc2b4",
+        "id": "26",
+        "wait_time": "-1 ms",
+        "state": "WAITING"
+    },
+    "Monitor.IDM.jvm_stats.thread_stats.thread_info.\\IAM-BP-Q\\System\\driverset0\\Account_Sync_Driver": {
+        "id": "25",
+        "wait_time": "-1 ms",
+        "state": "TIMED_WAITING"
+    },
+    "Monitor.IDM.jvm_stats.thread_stats.thread_info.\\IAM-BP-Q\\System\\driverset0\\Admin-BL-Jobs_-_Publisher": {
+        "lock": "com.novell.nds.dirxml.driver.ThreadBridge@11919851",
+        "id": "37",
+        "wait_time": "-1 ms",
+        "state": "WAITING"
+    },
+    "Monitor.IDM.jvm_stats.thread_stats.thread_info.\\IAM-BP-Q\\System\\driverset0\\Admin-BL-Jobs": {
+        "id": "36",
+        "wait_time": "-1 ms",
+        "state": "TIMED_WAITING"
+    },
+    "Monitor.IDM.jvm_stats.thread_stats.thread_info.\\IAM-BP-Q\\System\\driverset0\\AdminRoleManagement_-_Publisher": {
+        "id": "40",
+        "wait_time": "-1 ms",
+        "state": "TIMED_WAITING"
+    },
+    "Monitor.IDM.jvm_stats.thread_stats.thread_info.\\IAM-BP-Q\\System\\driverset0\\AdminRoleManagement": {
+        "id": "38",
+        "wait_time": "-1 ms",
+        "state": "TIMED_WAITING"
+    },
+    "Monitor.IDM.jvm_stats.thread_stats.thread_info.\\IAM-BP-Q\\System\\driverset0\\GHR_Location_Driver_-_Publisher": {
+        "id": "51",
+        "wait_time": "-1 ms",
+        "state": "TIMED_WAITING"
+    },
+    "Monitor.IDM.jvm_stats.thread_stats.thread_info.\\IAM-BP-Q\\System\\driverset0\\GHR_Location_Driver": {
+        "id": "49",
+        "wait_time": "-1 ms",
+        "state": "TIMED_WAITING"
+    },
+    "Monitor.IDM.jvm_stats.thread_stats.thread_info.\\IAM-BP-Q\\System\\driverset0\\ID-Provider_-_Publisher": {
+        "lock": "java.lang.Object@68c14d5",
+        "id": "240207",
+        "wait_time": "-1 ms",
+        "state": "TIMED_WAITING"
+    },
+    "Monitor.IDM.jvm_stats.thread_stats.thread_info.\\IAM-BP-Q\\System\\driverset0\\ID-Provider": {
+        "id": "240206",
+        "wait_time": "-1 ms",
+        "state": "TIMED_WAITING"
+    },
+    "Monitor.IDM.jvm_stats.thread_stats.thread_info.\\IAM-BP-Q\\System\\driverset0\\Identity_Gateway_Integration_Module_-_Publisher": {
+        "lock": "java.lang.Object@739811d3",
+        "id": "68",
+        "wait_time": "-1 ms",
+        "state": "TIMED_WAITING"
+    },
+    "Monitor.IDM.jvm_stats.thread_stats.thread_info.\\IAM-BP-Q\\System\\driverset0\\Identity_Gateway_Integration_Module": {
+        "id": "65",
+        "wait_time": "-1 ms",
+        "state": "TIMED_WAITING"
+    },
+    "Monitor.IDM.jvm_stats.thread_stats.thread_info.\\IAM-BP-Q\\System\\driverset0\\Identity-BL_-_Publisher": {
+        "lock": "com.novell.nds.dirxml.driver.ThreadBridge@6659d2c5",
+        "id": "78",
+        "wait_time": "-1 ms",
+        "state": "WAITING"
+    },
+    "Monitor.IDM.jvm_stats.thread_stats.thread_info.\\IAM-BP-Q\\System\\driverset0\\Identity-BL-Jobs_-_Publisher": {
+        "lock": "com.novell.nds.dirxml.driver.ThreadBridge@46ae2b51",
+        "id": "81",
+        "wait_time": "-1 ms",
+        "state": "WAITING"
+    },
+    "Monitor.IDM.jvm_stats.thread_stats.thread_info.\\IAM-BP-Q\\System\\driverset0\\Identity-BL-Jobs": {
+        "id": "80",
+        "wait_time": "-1 ms",
+        "state": "TIMED_WAITING"
+    },
+    "Monitor.IDM.jvm_stats.thread_stats.thread_info.\\IAM-BP-Q\\System\\driverset0\\Identity-BL": {
+        "id": "69",
+        "wait_time": "-1 ms",
+        "state": "TIMED_WAITING"
+    },
+    "Monitor.IDM.jvm_stats.thread_stats.thread_info.\\IAM-BP-Q\\System\\driverset0\\Janitor_-_Publisher": {
+        "lock": "com.novell.nds.dirxml.driver.ThreadBridge@49f1e08c",
+        "id": "84",
+        "wait_time": "-1 ms",
+        "state": "WAITING"
+    },
+    "Monitor.IDM.jvm_stats.thread_stats.thread_info.\\IAM-BP-Q\\System\\driverset0\\Janitor": {
+        "id": "83",
+        "wait_time": "-1 ms",
+        "state": "TIMED_WAITING"
+    },
+    "Monitor.IDM.jvm_stats.thread_stats.thread_info.\\IAM-BP-Q\\System\\driverset0\\KPI_Mailer_-_Publisher": {
+        "lock": "com.novell.nds.dirxml.driver.ThreadBridge@58e803f3",
+        "id": "86",
+        "wait_time": "-1 ms",
+        "state": "WAITING"
+    },
+    "Monitor.IDM.jvm_stats.thread_stats.thread_info.\\IAM-BP-Q\\System\\driverset0\\KPI_Mailer": {
+        "id": "85",
+        "wait_time": "-1 ms",
+        "state": "TIMED_WAITING"
+    },
+    "Monitor.IDM.jvm_stats.thread_stats.thread_info.\\IAM-BP-Q\\System\\driverset0\\License-Mgmt-BL_-_Publisher": {
+        "lock": "com.novell.nds.dirxml.driver.ThreadBridge@7ac2fa2",
+        "id": "88",
+        "wait_time": "-1 ms",
+        "state": "WAITING"
+    },
+    "Monitor.IDM.jvm_stats.thread_stats.thread_info.\\IAM-BP-Q\\System\\driverset0\\License-Mgmt-BL": {
+        "id": "87",
+        "wait_time": "-1 ms",
+        "state": "TIMED_WAITING"
+    },
+    "Monitor.IDM.jvm_stats.thread_stats.thread_info.\\IAM-BP-Q\\System\\driverset0\\List_based_clearing_-_Publisher": {
+        "id": "92",
+        "wait_time": "-1 ms",
+        "state": "TIMED_WAITING"
+    },
+    "Monitor.IDM.jvm_stats.thread_stats.thread_info.\\IAM-BP-Q\\System\\driverset0\\List_based_clearing": {
+        "id": "90",
+        "wait_time": "-1 ms",
+        "state": "TIMED_WAITING"
+    },
+    "Monitor.IDM.jvm_stats.thread_stats.thread_info.\\IAM-BP-Q\\System\\driverset0\\Move-Driver_-_Publisher": {
+        "lock": "com.novell.nds.dirxml.driver.ThreadBridge@296f689d",
+        "id": "94",
+        "wait_time": "-1 ms",
+        "state": "WAITING"
+    },
+    "Monitor.IDM.jvm_stats.thread_stats.thread_info.\\IAM-BP-Q\\System\\driverset0\\Move-Driver": {
+        "id": "93",
+        "wait_time": "-1 ms",
+        "state": "TIMED_WAITING"
+    },
+    "Monitor.IDM.jvm_stats.thread_stats.thread_info.\\IAM-BP-Q\\System\\driverset0\\Password_Change_Mailer_-_Publisher": {
+        "lock": "com.novell.nds.dirxml.driver.ThreadBridge@41405a7e",
+        "id": "97",
+        "wait_time": "-1 ms",
+        "state": "WAITING"
+    },
+    "Monitor.IDM.jvm_stats.thread_stats.thread_info.\\IAM-BP-Q\\System\\driverset0\\Password_Change_Mailer": {
+        "id": "96",
+        "wait_time": "-1 ms",
+        "state": "TIMED_WAITING"
+    },
+    "Monitor.IDM.jvm_stats.thread_stats.thread_info.\\IAM-BP-Q\\System\\driverset0\\Referential_Integrity_-_Publisher": {
+        "lock": "com.novell.nds.dirxml.driver.ThreadBridge@739ad652",
+        "id": "102",
+        "wait_time": "-1 ms",
+        "state": "WAITING"
+    },
+    "Monitor.IDM.jvm_stats.thread_stats.thread_info.\\IAM-BP-Q\\System\\driverset0\\Referential_Integrity": {
+        "id": "98",
+        "wait_time": "-1 ms",
+        "state": "TIMED_WAITING"
+    },
+    "Monitor.IDM.jvm_stats.thread_stats.thread_info.\\IAM-BP-Q\\System\\driverset0\\Role_and_Resource_driver_-_Publisher": {
+        "lock": "java.lang.Object@311ecbbe",
+        "id": "111",
+        "wait_time": "-1 ms",
+        "state": "WAITING"
+    },
+    "Monitor.IDM.jvm_stats.thread_stats.thread_info.\\IAM-BP-Q\\System\\driverset0\\Role_and_Resource_driver": {
+        "id": "103",
+        "wait_time": "-1 ms",
+        "state": "TIMED_WAITING"
+    },
+    "Monitor.IDM.jvm_stats.thread_stats.thread_info.\\IAM-BP-Q\\System\\driverset0\\SAP_Auto_Clear_-_Publisher": {
+        "lock": "com.novell.nds.dirxml.driver.ThreadBridge@171fff92",
+        "id": "113",
+        "wait_time": "-1 ms",
+        "state": "WAITING"
+    },
+    "Monitor.IDM.jvm_stats.thread_stats.thread_info.\\IAM-BP-Q\\System\\driverset0\\SAP_Auto_Clear": {
+        "id": "112",
+        "wait_time": "-1 ms",
+        "state": "TIMED_WAITING"
+    },
+    "Monitor.IDM.jvm_stats.thread_stats.thread_info.\\IAM-BP-Q\\System\\driverset0\\Test_Named_Pwd_-_Publisher": {
+        "lock": "com.novell.nds.dirxml.driver.ThreadBridge@120a1cad",
+        "id": "116",
+        "wait_time": "-1 ms",
+        "state": "WAITING"
+    },
+    "Monitor.IDM.jvm_stats.thread_stats.thread_info.\\IAM-BP-Q\\System\\driverset0\\Test_Named_Pwd": {
+        "id": "115",
+        "wait_time": "-1 ms",
+        "state": "TIMED_WAITING"
+    },
+    "Monitor.IDM.jvm_stats.thread_stats.thread_info.\\IAM-BP-Q\\System\\driverset0\\Unique_Email_Import_-_Publisher": {
+        "id": "119",
+        "wait_time": "-1 ms",
+        "state": "TIMED_WAITING"
+    },
+    "Monitor.IDM.jvm_stats.thread_stats.thread_info.\\IAM-BP-Q\\System\\driverset0\\Unique_Email_Import": {
+        "id": "117",
+        "wait_time": "-1 ms",
+        "state": "TIMED_WAITING"
+    },
+    "Monitor.IDM.jvm_stats.thread_stats.thread_info.\\IAM-BP-Q\\System\\driverset0\\Unique_Email_Maintenance_-_Publisher": {
+        "lock": "com.novell.nds.dirxml.driver.ThreadBridge@1ecf2bb9",
+        "id": "122",
+        "wait_time": "-1 ms",
+        "state": "WAITING"
+    },
+    "Monitor.IDM.jvm_stats.thread_stats.thread_info.\\IAM-BP-Q\\System\\driverset0\\Unique_Email_Maintenance": {
+        "id": "121",
+        "wait_time": "-1 ms",
+        "state": "TIMED_WAITING"
+    },
+    "Monitor.IDM.jvm_stats.thread_stats.thread_info.\\IAM-BP-Q\\System\\driverset0\\UserApp_wf_fix_-_Publisher": {
+        "lock": "com.novell.nds.dirxml.driver.ThreadBridge@1b06bae6",
+        "id": "125",
+        "wait_time": "-1 ms",
+        "state": "WAITING"
+    },
+    "Monitor.IDM.jvm_stats.thread_stats.thread_info.\\IAM-BP-Q\\System\\driverset0\\UserApp_wf_fix": {
+        "id": "124",
+        "wait_time": "-1 ms",
+        "state": "TIMED_WAITING"
+    },
+    "Monitor.IDM.jvm_stats.thread_stats.thread_info.\\IAM-BP-Q\\System\\driverset0\\UserApplication_-_Publisher": {
+        "lock": "java.lang.Object@365a8ac5",
+        "id": "128",
+        "wait_time": "-1 ms",
+        "state": "WAITING"
+    },
+    "Monitor.IDM.jvm_stats.thread_stats.thread_info.\\IAM-BP-Q\\System\\driverset0\\UserApplication": {
+        "id": "127",
+        "wait_time": "-1 ms",
+        "state": "TIMED_WAITING"
+    },
+    "Monitor.IDM.jvm_stats.thread_stats.thread_info.\\IAM-BP-Q\\System\\driverset0\\WorkOrder_Identity_-_Publisher": {
+        "lock": "java.lang.Object@7a724982",
+        "id": "130",
+        "wait_time": "-1 ms",
+        "state": "TIMED_WAITING"
+    },
+    "Monitor.IDM.jvm_stats.thread_stats.thread_info.\\IAM-BP-Q\\System\\driverset0\\WorkOrder_Identity": {
+        "id": "129",
+        "wait_time": "-1 ms",
+        "state": "TIMED_WAITING"
+    },
+    "Monitor.IDM.jvm_stats.thread_stats.thread_info.\\IAM-BP-Q\\System\\driverset0\\WorkOrder_Mail_-_Publisher": {
+        "lock": "java.lang.Object@35eeece",
+        "id": "132",
+        "wait_time": "-1 ms",
+        "state": "TIMED_WAITING"
+    },
+    "Monitor.IDM.jvm_stats.thread_stats.thread_info.\\IAM-BP-Q\\System\\driverset0\\WorkOrder_Mail": {
+        "id": "131",
+        "wait_time": "-1 ms",
+        "state": "TIMED_WAITING"
+    },
+    "Monitor.IDM.jvm_stats.thread_stats.thread_info.\\IAM-BP-Q\\System\\driverset0\\eDir-Pwd-Checker_-_Publisher": {
+        "lock": "com.novell.nds.dirxml.driver.ThreadBridge@5b673a19",
+        "id": "48",
+        "wait_time": "-1 ms",
+        "state": "WAITING"
+    },
+    "Monitor.IDM.jvm_stats.thread_stats.thread_info.\\IAM-BP-Q\\System\\driverset0\\eDir-Pwd-Checker": {
+        "id": "47",
+        "wait_time": "-1 ms",
+        "state": "TIMED_WAITING"
+    },
+    "Monitor.IDM.jvm_stats.thread_stats.thread_info.\\IAM-BP-Q\\System\\driverset0\\eDir_ident2tempIdent_-_Publisher": {
+        "id": "43",
+        "wait_time": "-1 ms",
+        "state": "RUNNABLE"
+    },
+    "Monitor.IDM.jvm_stats.thread_stats.thread_info.\\IAM-BP-Q\\System\\driverset0\\eDir_ident2tempIdent": {
+        "id": "41",
+        "wait_time": "-1 ms",
+        "state": "TIMED_WAITING"
+    },
+    "Monitor.IDM.jvm_stats.thread_stats.thread_info.\\IAM-BP-Q\\System\\driverset0\\eDir_tempIdent2ident_-_Publisher": {
+        "id": "46",
+        "wait_time": "-1 ms",
+        "state": "RUNNABLE"
+    },
+    "Monitor.IDM.jvm_stats.thread_stats.thread_info.\\IAM-BP-Q\\System\\driverset0\\eDir_tempIdent2ident": {
+        "id": "44",
+        "wait_time": "-1 ms",
+        "state": "TIMED_WAITING"
+    },
+    "Monitor.IDM.jvm_stats.thread_stats.thread_info.pool-42395-thread-1": {
+        "lock": "java.util.concurrent.locks.AbstractQueuedSynchronizer$ConditionObject@7eefd295",
+        "id": "232824",
+        "wait_time": "-1 ms",
+        "state": "WAITING"
+    },
+    "Monitor.IDM.jvm_stats.thread_stats.thread_info.pool-47165-thread-1": {
+        "id": "260762",
+        "wait_time": "-1 ms",
+        "state": "RUNNABLE"
+    },
+    "Monitor.IDM.jvm_stats.thread_stats.thread_info.pool-9-thread-1": {
+        "lock": "java.util.concurrent.locks.AbstractQueuedSynchronizer$ConditionObject@5d204665",
+        "id": "251",
+        "wait_time": "-1 ms",
+        "state": "WAITING"
+    },
+    "Monitor.IDM.jvm_stats.thread_stats.thread_info.qtp966628112-257145": {
+        "id": "257145",
+        "wait_time": "-1 ms",
+        "state": "RUNNABLE"
+    },
+    "Monitor.IDM.jvm_stats.thread_stats.thread_info.qtp966628112-257271": {
+        "id": "257271",
+        "wait_time": "-1 ms",
+        "state": "RUNNABLE"
+    },
+    "Monitor.IDM.jvm_stats.thread_stats.thread_info.qtp966628112-259179": {
+        "id": "259179",
+        "wait_time": "-1 ms",
+        "state": "RUNNABLE"
+    },
+    "Monitor.IDM.jvm_stats.thread_stats.thread_info.qtp966628112-259981": {
+        "lock": "java.util.concurrent.SynchronousQueue$TransferStack@5cbf1508",
+        "id": "259981",
+        "wait_time": "-1 ms",
+        "state": "TIMED_WAITING"
+    },
+    "Monitor.IDM.jvm_stats.thread_stats.thread_info.qtp966628112-260281": {
+        "lock": "java.util.concurrent.locks.AbstractQueuedSynchronizer$ConditionObject@16361b63",
+        "id": "260281",
+        "wait_time": "-1 ms",
+        "state": "TIMED_WAITING"
+    },
+    "Monitor.IDM.jvm_stats.thread_stats.thread_info.qtp966628112-260282": {
+        "lock": "java.util.concurrent.SynchronousQueue$TransferStack@5cbf1508",
+        "id": "260282",
+        "wait_time": "-1 ms",
+        "state": "TIMED_WAITING"
+    },
+    "Monitor.IDM.jvm_stats.thread_stats.thread_info.qtp966628112-260448": {
+        "id": "260448",
+        "wait_time": "-1 ms",
+        "state": "RUNNABLE"
+    },
+    "Monitor.IDM.jvm_stats.thread_stats.thread_info._http/1.1)}{10.124.80.112._(ssl.qtp966628112-74-acceptor-0@cc37249-ServerConnector@3ba11e2c{SSL.7708}": {
+        "id": "74",
+        "wait_time": "-1 ms",
+        "state": "RUNNABLE"
+    },
+    "Monitor.LDAP.LDAPStatistics.Bindings": {
+        "unAuthBinds": "1247",
+        "simpleAuthBinds": "56127",
+        "strongAuthBinds": "0",
+        "bindSecurityErrors": "1295"
+    },
+    "Monitor.LDAP.LDAPStatistics.Errors": {
+        "errors": "21643",
+        "securityErrors": "9112"
+    },
+    "Monitor.LDAP.LDAPStatistics.IncomingOperations": {
+        "oneLevelSearchOps": "26725",
+        "addEntryOps": "316",
+        "readOps": "32572056",
+        "modifyEntryOps": "4352",
+        "modifyRDNOps": "1",
+        "wholeSubtreeSearchOps": "269329",
+        "removeEntryOps": "55",
+        "inOps": "33239856",
+        "extendedOps": "117519",
+        "listOps": "0",
+        "abandonOps": "162",
+        "compareOps": "286",
+        "searchOps": "32868110"
+    },
+    "Monitor.LDAP.LDAPStatistics.OutgoingOperations": {
+        "chainings": "0",
+        "referralsReturned": "0"
+    },
+    "Monitor.LDAP.LDAPStatistics.Replications": {
+        "repUpdatesOut": "0",
+        "repUpdatesIn": "0"
+    },
+    "Monitor.LDAP.LDAPStatistics.TrafficVolume": {
+        "outBytes": "29355289610",
+        "inBytes": "6530833119"
+    },
+    "Monitor.RecordManager.CacheStatistics.CacheFaultLooks": {
+        "Total": "811190979",
+        "BlockCache": "358566495",
+        "EntryCache": "452624484"
+    },
+    "Monitor.RecordManager.CacheStatistics.CacheFaults": {
+        "Total": "489204293",
+        "BlockCache": "115387430",
+        "EntryCache": "373816863"
+    },
+    "Monitor.RecordManager.CacheStatistics.CurrentSize": {
+        "EntryCacheSize": "246336 KB",
+        "BlockCacheSize": "253696 KB",
+        "TotalSize": "500032 KB"
+    },
+    "Monitor.RecordManager.CacheStatistics.HitLooks": {
+        "Total": "6608662468",
+        "BlockCache": "6029375286",
+        "EntryCache": "579287182"
+    },
+    "Monitor.RecordManager.CacheStatistics.Hits": {
+        "Total": "2723790620",
+        "BlockCache": "2323555126",
+        "EntryCache": "400235494"
+    },
+    "Monitor.RecordManager.CacheStatistics.ItemsCached": {
+        "Total": "96124",
+        "BlockCache": "61084",
+        "EntryCache": "35040"
+    },
+    "Monitor.RecordManager.CacheStatistics.MaximumSize": {
+        "EntryCacheSize": "250016 KB",
+        "BlockCacheSize": "250015 KB",
+        "TotalSize": "500032 KB"
+    },
+    "Monitor.RecordManager.CacheStatistics.OldVersionCachedCount": {
+        "Total": "35",
+        "BlockCache": "2",
+        "EntryCache": "33"
+    },
+    "Monitor.RecordManager.CacheStatistics.OldVersionCachedSize": {
+        "EntryCacheSize": "137 KB",
+        "BlockCacheSize": "8 KB",
+        "TotalSize": "145 KB"
+    },
+    "Monitor.RecordManager.CheckPointThreadData": {
+        "CheckPointThreadDataBlocksWritten": "0",
+        "CheckPointThreadBlockSize": "4096",
+        "CheckPointThreadIsRunning": "0",
+        "CheckPointThreadStartTime": "0",
+        "CheckPointThreadWritingDataBlocks": "0",
+        "CheckPointThreadDirtyCacheBlocks": "0",
+        "CheckPointThreadForceStartTime": "0",
+        "CheckPointThreadIsForced": "No",
+        "CheckPointThreadLogBlocksWritten": "0"
+    },
+    "Monitor.RecordManager.Size": {
+        "DIBRollBackFileSize": "104857600 Bytes",
+        "DIBRflmFileSize": "29210753 Bytes",
+        "CurrentTransactionID": "35520754",
+        "DIBFileSize": "1118117888 Bytes",
+        "TotalDIBSize": "1357814103 Bytes",
+        "DIBStreamFileSize": "105627862 Bytes"
+    }
+}

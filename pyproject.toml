@@ -1,0 +1,74 @@
+[project]
+name = "ldap-exporter"
+version = "0.1.0"
+description = "A Prometheus exporter proxy for LDAP"
+readme = "README.md"
+authors = [
+    { name = "Tobias Linkermann", email = "tobias.linkermann@outlook.de" }
+]
+requires-python = ">=3.14"
+dependencies = [
+    "ldap3>=2.9.1",
+    "prometheus-client>=0.23.1",
+    "pyyaml>=6.0.3",
+]
+classifiers = [
+    "Programming Language :: Python :: 3",
+    "Operating System :: OS Independent",
+]
+license = "Apache-2.0"
+license-files = ["LICEN[CS]E*"]
+
+[project.urls]
+Homepage = "https://github.com/tschroeder13/ldap-exporter"
+Issues = "https://github.com/tschroeder13/ldap-exporter/issues"
+
+[build-system]
+requires = ["uv_build>=0.9.21,<0.10.0"]
+build-backend = "uv_build"
+
+[dependency-groups]
+dev = [
+    "pytest>=9.0.2",
+]
+
+[tool.pytest.ini_options]
+# Minimum pytest version required
+minversion = "7.0"
+
+# Default command-line options
+addopts = "-ra -q --disable-warnings"
+
+# Directories or files to search for tests
+testpaths = [
+    "tests",
+    "integration_tests"
+]
+
+# Patterns for test file discovery
+python_files = [
+    "test_*.py",
+    "*_test.py"
+]
+
+# Patterns for test class discovery
+python_classes = [
+    "Test*"
+]
+
+# Patterns for test function discovery
+python_functions = [
+    "test_*"
+]
+
+# Markers (must be registered to avoid warnings)
+markers = [
+    "slow: marks tests as slow (deselect with '-m \"not slow\"')",
+    "integration: marks integration tests"
+]
+
+# Ignore specific warnings
+filterwarnings = [
+    "ignore::DeprecationWarning",
+    "ignore::PendingDeprecationWarning"
+]

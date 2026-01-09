@@ -1,0 +1,72 @@
+ldap:
+  enabled: true
+  bind_dn: "cn=admin,dc=example,dc=com"
+  bind_pw: "password1"
+  host: "ldap1.example.com"
+  port: 636
+  ## optional values with defaults
+  # refresh_interval: 60 # in seconds
+  # searchbase: "cn=monitor"
+  # searchfilter: "(objectClass=*)"
+  # attributes:
+  #   - "*" # all user attributes
+  #   - "+" # all operational attributes
+  ca_cert: |
+    -----BEGIN CERTIFICATE-----
+    VGhpcyBpcyBzb21lIHZlcnkgc2VjcmV0IHN0dWZmLg==
+    ------END CERTIFICATE-----
+prometheus:
+  enabled: true
+  address: "0.0.0.0"
+  port: 9100
+  certfile: "./etc/certfile.crt"
+  keyfile: "./etc/keyfile.key"
+  metrics_path: "/metrics"
+  disable_created: false
+  include_metrics:
+    - Monitor.Agent.Status
+    - Monitor.Agent.Partition
+    # - Monitor.IDM.EngineVersion
+    # - Monitor.IDM.driverSet_Stats.*
+    # - Monitor.IDM.job_stats.*
+    # - Monitor.RecordManager.*
+    # - Monitor.Agent.Partition
+    # - Monitor.LDAP.LDAPStatistics.*
+    # - Monitor.DHOST.ThreadPool
+    # - Monitor.DHOST.InBoundConnection
+    # - Monitor.Dclient.OutBoundConnection
+    # - Monitor.Dclient.OutBoundContext
+    # - Monitor.IDM.jvm_stats.*
+    # # - Monitor.Agent.BackGroundProcInterval.* # Not implemented yet
+    # # - Monitor.IDM.jvm_stats.* # Not implemented yet
+    # # - Monitor.IDM.userapp_stats.*  # not implemented yet
+    # # - Monitor.IDM.workflow_stats.*  # not implemented yet
+
+logging:
+  version: 1
+  disable_existing_loggers: false
+  formatters:
+    simple:
+      format: '%(levelname)s: %(message)s'
+    detailed:
+      format: '[%(levelname)s|%(module)s|L%(lineno)d] %(asctime)s: %(message)s'
+      datefmt: '%Y-%m-%dT%H:%M:%S%z'
+  handlers:
+    stdout:
+      class: logging.StreamHandler
+      level: DEBUG
+      formatter: simple
+      stream: ext://sys.stdout
+    file:
+      class: logging.handlers.RotatingFileHandler
+      level: DEBUG
+      formatter: detailed
+      filename: logs/ldap_exporter.log
+      maxBytes: 10000
+      backupCount: 3
+  loggers:
+    root:
+      level: DEBUG
+      handlers:
+      - stdout
+      - file
