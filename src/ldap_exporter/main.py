@@ -10,7 +10,6 @@ import yaml
 from prometheus_client import REGISTRY, start_http_server
 
 from .ldap import LdapClient
-from .ldap_mock import MockLdapClient
 from .prometheus import LdapCollector
 
 APP_NAME = "ldap_exporter"
@@ -41,10 +40,6 @@ def run_ldap_exporter(ldap_client: LdapClient, prometheus_config: dict):
     REGISTRY.register(ldap_collector)
     logger.debug("Registered LdapCollector with Prometheus REGISTRY")
 
-def run_mock_ldap_client(mock_config: dict):
-    logger.debug("Initialized LdapClient (Mockup)")
-    return MockLdapClient(filepath=os.path.abspath(mock_config.get('file', './ldap_results.json')))
-
 def init_ldap_client(ldap_config: dict):
     logger.debug("Initialized LdapClient")
     return LdapClient(host=ldap_config['host'],
@@ -73,16 +68,6 @@ def main(config_file):
     if config.get('ldap', {}).get('enabled', False) and config.get('mockup', {}).get('enabled', False):
         logger.error("Both LDAP and Mockup modes are enabled. Please enable only one mode at a time.")
         sys.exit(1)
-    if config.get('mockup', {}).get('enabled', False):
-        mock_config = config['mockup']
-        if mock_config.get('mode', 'write') == 'write':
-            write_mock_data(ldap_config=config['ldap'], mock_config=mock_config)
-            logger.info("Mockup mode: wrote LDAP results to file")
-            sys.exit(0)
-        else:
-            ldap_client = run_mock_ldap_client(mock_config=config['mockup'])
-            run_ldap_exporter(ldap_client=ldap_client, prometheus_config=config['prometheus'])
-            logger.info("Running in mockup mode with MockLdapClient")
     elif config.get('ldap', {}).get('enabled', False) and config.get('prometheus', {}).get('enabled', False):
         ldap_client = init_ldap_client(config['ldap'])
         run_ldap_exporter(ldap_client=ldap_client, prometheus_config=config['prometheus'])
